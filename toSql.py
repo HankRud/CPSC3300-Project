@@ -3,22 +3,22 @@ import pandas as pd
 import mysql.connector  as mysql
 from mysql.connector import Error
 
-client_data = pd.read_csv('Clients.csv',index_col=False, delimiter = ',')
-employee_data = pd.read_csv('Employees.csv',index_col=False, delimiter = ',')
-firm_data = pd.read_csv('Firms.csv',index_col=False, delimiter = ',')
-case_descriptions = pd.read_csv('CaseDesciptions.csv',index_col=False, delimiter = ',')
+client_data = pd.read_csv('/Users/rudolph2/Desktop/CPSC3300/CPSC3300-Project/Clients.csv',index_col=False, delimiter = ',')
+employee_data = pd.read_csv('/Users/rudolph2/Desktop/CPSC3300/CPSC3300-Project/Employees.csv',index_col=False, delimiter = ',')
+firm_data = pd.read_csv('/Users/rudolph2/Desktop/CPSC3300/CPSC3300-Project/Firms.csv',index_col=False, delimiter = ',')
+"case_descriptions = pd.read_csv('/Users/rudolph2/Desktop/CPSC3300/CPSC3300-Project/CaseDescriptions.csv',index_col=False, delimiter = ',')"
 
 try:
     conn = mysql.connect(
-     user = 'user36', password = '1234abcdF!', host = 'cs100.seattleu.edu', databse = 'bw_db36'
+     user = 'user36', password = '1234abcdF!', host = 'cs100.seattleu.edu', database = 'bw_db36'
     )
 
     if conn.is_connected():
         cursor = conn.cursor()
 
 
-        for x, row in firm_data.itterrows():
-            sql = "INSERT INTO bw_db36 VALUES (%s,%s,%s,%s,%s,%s,%s)"
+        for x, row in firm_data.iterrows():
+            sql = "INSERT INTO bw_db36.Firm VALUES (%s,%s,%s,%s,%s,%s,%s)"
             cursor.execute(sql,tuple(row))
             conn.commit()
         
