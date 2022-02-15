@@ -4,6 +4,7 @@ use bw_db36;
 drop table if exists Attorney_Case_Work;
 drop table if exists Paralegal_Case_Work;
 drop table if exists Leads;
+drop table if exists Task;
 drop table if exists ClientCase;
 drop table if exists Employee;
 drop table if exists Firm_Client;
@@ -12,40 +13,41 @@ drop table if exists Firm;
 
 
 Create Table Firm(
-	firm_id CHAR(9),
+	firm_id CHAR(11),
     firm_name VARCHAR(50),
-    firm_street VARCHAR(20),
+    firm_street VARCHAR(100),
     firm_city VARCHAR(20),
     firm_state VARCHAR(20),
     firm_zip int(5),
-    firm_phone int(9),
+    firm_phone CHAR(10),
     Primary key (firm_id)
 ) ;   
 
 CREATE Table Department(
-	dept_num CHAR(3), 
-    dept_name VARCHAR(20),
-    firm_id CHAR(9),
+	firm_id CHAR(11),
+    dept_num CHAR(3), 
+    dept_name VARCHAR(50),
 	primary key (dept_num, firm_id),
 	foreign key (firm_id) 
 		references Firm (firm_id)
-        On delete Cascade on Update Cascade
 );
 
 CREATE Table Firm_Client(
 	client_ssn  CHAR(11),
     client_name VARCHAR(50) not null,
-    clinet_phone CHAR(10),
-    client_street VARCHAR(20),
-    client_city VARCHAR(20),
-    client_state VARCHAR(20),
-    client_zip int(5),
-    firm_id CHAR(9),
+    client_street VARCHAR(50),
+    client_city VARCHAR(50),
+	client_zip int(5),
+    client_state VARCHAR(50),
+    client_phone CHAR(10),
+    client_dob DATE,
+    firm_id CHAR(11),
     dept_num CHAR(3),
     primary key (client_ssn),
 	foreign key (firm_id) 
-		references Firm (firm_id)
-        On delete Cascade on Update Cascade
+		references Firm (firm_id),
+	foreign key (dept_num)
+		references Department(dept_num)
 );
 
 CREATE Table Employee(
