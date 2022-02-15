@@ -11,8 +11,6 @@ drop table if exists Department;
 drop table if exists Firm;
 
 
-
-
 Create Table Firm(
 	firm_id CHAR(9),
     firm_name VARCHAR(50),
