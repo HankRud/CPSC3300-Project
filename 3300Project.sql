@@ -26,7 +26,7 @@ CREATE Table Department(
 	dept_num CHAR(3), 
     dept_name VARCHAR(20),
     firm_id CHAR(9),
-	primary key (dept_num),
+	primary key (dept_num, firm_id),
 	foreign key (firm_id) 
 		references Firm (firm_id)
         On delete Cascade on Update Cascade
