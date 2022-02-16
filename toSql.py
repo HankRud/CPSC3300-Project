@@ -20,7 +20,6 @@ try:
         cursor = conn.cursor()
 
 
-       
         for x, row in firm_data.iterrows():
             sql = "INSERT INTO bw_db36.Firm VALUES (%s,%s,%s,%s,%s,%s,%s)"
             cursor.execute(sql,tuple(row))

@@ -25,7 +25,7 @@ Create Table Firm(
 
 CREATE Table Department(
 	firm_id CHAR(11),
-    dept_num CHAR(3), 
+    dept_num CHAR(8), 
     dept_name VARCHAR(50),
 	primary key (dept_num,firm_id),
 	foreign key (firm_id) 
@@ -47,7 +47,7 @@ CREATE Table Firm_Client(
     client_dob DATE,
     client_phone CHAR(10),
     firm_id CHAR(11),
-    dept_num CHAR(3),
+    dept_num CHAR(8),
     primary key (client_ssn),
 	foreign key (firm_id) 
 		references Firm (firm_id),
@@ -67,7 +67,7 @@ CREATE Table Employee(
     emp_role VARCHAR(20),
 	CONSTRAINT chk_role CHECK (emp_role
 		In('Partner','Managing Partner','Associate','Legal Secretary','Paralegal')),
-    dept_num CHAR(3),
+    dept_num CHAR(8),
     primary key (emp_ssn),
 	foreign key (dept_num) 
 		references Department (dept_num)
@@ -80,7 +80,7 @@ CREATE Table Employee(
 CREATE TABLE ClientCase(
 	case_id CHAR(6),
     client_ssn CHAR(11),
-    dept_num CHAR(3), 
+    dept_num CHAR(8), 
     stateofcase VARCHAR(20),
     handling_attny CHAR(9),
 	CONSTRAINT chk_state CHECK (stateofcase IN('in_court','in_progress', 'resolved')),
@@ -103,7 +103,7 @@ CREATE TABLE ClientCase(
 
 CREATE TABLE Leads(
 	emp_ssn CHAR(11),
-    dept_num CHAR(3),
+    dept_num CHAR(8),
     primary key (emp_ssn,dept_num),
     foreign key (dept_num) references Department (dept_num),
     foreign key (emp_ssn) references Employee(emp_ssn)
@@ -135,9 +135,3 @@ CREATE TABLE Attorney_Case_Work(
     foreign key (case_id) references ClientCase(case_id)
 );
 
-
-
-
-
-
-    
