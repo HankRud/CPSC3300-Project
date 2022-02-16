@@ -1,3 +1,4 @@
+case_id,state_of_case,court_rules,ruling,judge,dept_num
 785147,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Eula Issacof,8140-124
 723780,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ali Jacobowits,0600-104
 853273,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Risa Costain,8140-122

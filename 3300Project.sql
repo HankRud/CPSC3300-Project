@@ -5,6 +5,7 @@ drop table if exists Attorney_Case_Work;
 drop table if exists Paralegal_Case_Work;
 drop table if exists Leads;
 drop table if exists Task;
+drop table if exists TempCase;
 drop table if exists ClientCase;
 drop table if exists Employee;
 drop table if exists Temp_Client;
@@ -90,20 +91,28 @@ CREATE Table Employee(
 		
 );
 
-
+CREATE TABLE TempCase(
+	case_id CHAR(6),
+    stateofcase VARCHAR(20),
+	CONSTRAINT temp_state CHECK (stateofcase IN('in_court','in_progress', 'resolved')),
+    court_rules VARCHAR(50),
+    ruling VARCHAR(20),
+    judge VARCHAR(50),
+    dept_num CHAR(8)
+);
 
 CREATE TABLE ClientCase(
 	case_id CHAR(6),
-    client_ssn CHAR(11),
-    dept_num CHAR(8), 
     stateofcase VARCHAR(20),
-    handling_attny CHAR(9),
 	CONSTRAINT chk_state CHECK (stateofcase IN('in_court','in_progress', 'resolved')),
-    matter_description VARCHAR(1000),
     court_rules VARCHAR(50),
     ruling VARCHAR(20),
-    judge VARCHAR(20),
+    judge VARCHAR(50),
+    dept_num CHAR(8), 
     litigating_attny CHAR(11),
+    handling_attny CHAR(11),
+    client_ssn CHAR(11),
+    matter_description VARCHAR(1000),
     primary key (case_id),
     foreign key (dept_num) references Department (dept_num)
 		On delete set null on update cascade,
@@ -125,9 +134,9 @@ CREATE TABLE Leads(
 );
 
 CREATE TABLE Task(
-	task_id CHAR(9),
-    case_id CHAR(6),
+	task_id CHAR(5),
     task_description VARCHAR(100),
+    case_id CHAR(6),
 	primary key (task_id,case_id),
     foreign key (case_id) references ClientCase(case_id)
 );

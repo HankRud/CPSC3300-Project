@@ -1,0 +1,977 @@
+case_id,stateofcase,court_rules,ruling,judge,dept_num,litigating_attny,max(emp_ssn),client_ssn
+101011,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Egor Lorans,0600-122,569-06-3939,404-04-8585,339-52-4564
+101681,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Brinn Marriot,2911-114,149-29-8407,656-51-2165,318-55-9543
+103872,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Alonzo Tungay,0813-110,287-83-1678,454-74-9267,375-77-2491
+103912,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Dyane Swann,7692-120,230-68-6805,613-18-8257,513-26-1918
+104194,in_court,https://www.courts.wa.gov/court_rules/,guilty,Domenic Griniov,3571-102,810-34-3730,465-88-0821,495-35-5366
+104778,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Jedediah Duferie,6374-102,172-21-9750,172-21-9750,729-80-6883
+105235,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Didi Borne,8140-120,256-66-2228,333-04-0667,823-76-5326
+106411,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Roobbie Gillice,3360-112,516-97-3562,437-03-4413,772-18-0886
+106833,in_court,https://www.courts.wa.gov/court_rules/,guilty,Mikey Gadie,2939-108,116-05-2373,843-70-5633,411-15-7096
+110603,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Fara Cleverley,3704-104,166-24-5698,832-36-1730,778-94-0719
+111341,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Dan Adamkiewicz,8140-100,102-51-9499,216-97-1067,725-06-6166
+111442,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ellen Goldsbrough,1568-108,485-24-0489,832-27-4443,860-72-7808
+112516,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Corrianne Di Boldi,6401-124,825-86-9026,714-30-6382,887-10-3540
+113455,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Meara Koppes,6401-100,435-94-4433,460-04-2790,845-36-1518
+114444,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Arabele Diggin,0813-106,132-66-1834,545-84-7542,268-90-1937
+116656,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Fannie Whopples,6708-106,428-19-9096,882-25-8581,879-63-3176
+117103,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Giselle Cromwell,4773-118,252-85-2441,719-51-6338,671-39-1937
+117837,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Alejandro Michieli,2423-108,543-58-4638,254-92-4227,719-21-5226
+118859,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Antonino McVie,2021-102,180-17-1107,789-20-8993,374-94-2573
+121048,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Bron Baughan,1100-104,827-01-0136,710-23-9657,186-44-5533
+121766,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Homerus Bilofsky,6708-106,406-43-9194,444-47-9809,805-61-5864
+124284,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Jeffy Decort,2423-122,258-70-5396,111-12-2834,608-94-7315
+126382,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Lambert Biaggetti,2939-102,864-80-7444,850-17-1916,630-64-7989
+126432,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ardine Wolfers,8140-110,788-77-5777,788-77-5777,392-30-0741
+126460,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Audie Reveland,7692-106,351-54-0549,636-88-4987,567-85-7038
+127857,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Lyon Normadell,6708-120,750-95-8080,799-04-0889,883-62-2119
+129109,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Lissi Kollach,7817-106,764-57-0411,571-07-4367,729-30-1909
+129859,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Sianna Scoyne,3571-122,619-23-3658,398-03-2606,592-81-7835
+130121,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ax Andrivot,1568-124,168-48-7836,129-67-0193,224-86-7521
+133270,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Elaina Wink,7817-106,649-04-2975,236-99-0161,468-16-8121
+134221,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ethan Abramino,4773-102,367-13-0639,523-20-1170,663-87-1907
+136788,resolved,https://www.courts.wa.gov/court_rules/,guilty,Charlean MacAscaidh,4700-104,830-30-9433,548-75-5399,118-54-0686
+137243,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Sherlocke Swetman,4805-108,105-49-5346,202-06-2837,370-71-1745
+137931,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Nowell McGenis,1489-100,647-34-5812,622-24-7567,613-65-3866
+138702,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Michel Philippart,8140-122,121-92-1607,143-12-9031,437-42-5035
+141469,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Roanna Noel,6401-108,398-47-8954,794-48-5598,490-83-4516
+142550,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Lauri Kinnar,2939-110,887-66-6020,548-26-4588,443-19-6804
+142949,resolved,https://www.courts.wa.gov/court_rules/,guilty,Karoly Muffen,1100-100,887-58-5875,560-44-0058,650-24-0226
+143127,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Gerrie Lytle,0600-112,224-34-6872,138-97-1517,332-62-8009
+146278,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Pedro Rodgerson,5785-114,346-63-1828,346-63-1828,591-77-1232
+150344,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Minna Gillooly,8140-120,673-33-3136,748-65-3064,311-20-5917
+150747,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Derrik Sinncock,4805-104,507-84-3370,303-94-6478,711-39-4670
+151369,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Rolando Curwen,2939-110,832-55-6623,820-05-8945,411-58-1504
+151466,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Catie Peinton,0600-110,405-44-3872,473-56-2674,171-84-8932
+152643,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Barty Oherlihy,2911-118,387-27-8434,213-93-0122,151-85-4570
+152816,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Slade Boyes,7692-120,499-22-1580,336-88-2364,684-95-2471
+152856,resolved,https://www.courts.wa.gov/court_rules/,guilty,Remington Savin,7692-106,742-13-0083,271-53-6537,566-44-4667
+152994,in_court,https://www.courts.wa.gov/court_rules/,guilty,Gertrudis Pocknoll,2911-114,387-25-1188,777-41-2922,266-71-0615
+153108,resolved,https://www.courts.wa.gov/court_rules/,guilty,Melisent Rawlins,4613-106,734-33-6049,144-49-6336,707-55-1650
+153588,in_court,https://www.courts.wa.gov/court_rules/,guilty,Vyky Zapater,3360-118,723-16-6450,723-16-6450,560-51-8074
+154204,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Alaster Excell,2939-102,864-80-7444,619-12-5241,441-96-0357
+154497,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Adel Coles,6401-108,398-47-8954,401-36-9299,490-83-4516
+155192,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Randell Jarville,3571-122,684-61-2022,684-61-2022,204-46-1564
+155483,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Erhart Cullington,2021-102,789-20-8993,810-38-9901,378-70-0497
+155489,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Dacia Facher,0813-106,194-64-6500,545-84-7542,585-94-5361
+156314,in_court,https://www.courts.wa.gov/court_rules/,guilty,Deva Abrahamson,7922-124,121-10-6353,459-43-5955,321-44-3443
+157668,resolved,https://www.courts.wa.gov/court_rules/,guilty,Sandie Rowdell,8757-112,587-84-7042,587-84-7042,754-44-2422
+158224,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Fraze Mc Dermid,4805-104,440-32-1716,284-26-7916,564-41-1910
+159462,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Michele Neward,2939-102,379-25-6271,615-58-9774,678-39-9089
+159883,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Emilia Kauble,1568-124,129-67-0193,212-25-3602,792-64-2058
+160113,resolved,https://www.courts.wa.gov/court_rules/,guilty,Hanna Dax,8140-124,658-32-7840,739-95-4284,823-18-9768
+160477,in_court,https://www.courts.wa.gov/court_rules/,guilty,Murial Calyton,0813-110,598-24-8401,154-07-9921,898-91-8536
+160799,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Melisa Maraga,0813-106,821-45-0681,132-66-1834,268-90-1937
+163529,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Glynda Denacamp,2911-122,387-21-5553,387-21-5553,755-44-2185
+164333,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Briana McRavey,1947-124,834-99-3273,241-65-5732,773-99-1274
+165740,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Nannie Dewen,6401-100,427-38-2608,597-59-4342,283-02-1994
+165847,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Korrie Doers,0813-114,178-87-3458,631-32-6477,566-95-3358
+166338,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Zorine Grundy,1568-100,835-10-7201,785-72-8669,341-47-5222
+167151,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Annnora Bloxland,3571-102,308-16-1736,308-16-1736,593-71-0102
+167800,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Miles Springall,1947-124,589-60-0085,589-60-0085,439-16-1273
+168223,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Kathlin Currington,6374-102,172-21-9750,327-54-2736,488-13-1804
+168244,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Maximilianus Backshall,2939-108,843-70-5633,843-70-5633,521-67-5925
+170172,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Timmi Benini,5785-114,681-81-2305,681-81-2305,741-68-5610
+173891,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Micah Caldera,6708-106,428-19-9096,444-47-9809,862-38-8937
+176963,in_court,https://www.courts.wa.gov/court_rules/,guilty,Sher Slixby,6401-106,167-13-6696,316-42-4973,846-32-6152
+178345,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Sydney McFarlan,0813-106,132-66-1834,837-53-9845,683-93-2868
+179031,in_court,https://www.courts.wa.gov/court_rules/,guilty,Candace Dornin,1568-124,432-26-8411,432-26-8411,320-62-3984
+179348,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Trude Bubeer,0813-110,287-83-1678,598-24-8401,683-59-5486
+179413,resolved,https://www.courts.wa.gov/court_rules/,guilty,Hamnet Ros,2939-104,699-18-9855,737-42-2809,445-64-5214
+180448,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Brnaba Waith,1947-124,834-99-3273,852-18-2405,773-99-1274
+181261,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Ali Vitall,8140-114,502-07-5870,823-62-6693,363-97-3748
+181500,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Flemming Huguenet,1947-124,586-19-1720,834-99-3273,335-01-7637
+181996,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Sammy Wyley,7817-106,571-07-4367,236-99-0161,492-81-2393
+182611,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ingamar Dumbelton,6708-116,436-87-5921,525-18-0199,152-94-4764
+183980,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Currey Botterman,3571-122,398-03-2606,808-61-0341,357-95-4869
+184457,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Elyn Shimony,2021-124,792-55-1607,792-55-1607,369-38-9274
+185361,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ninnette Gaine,6374-102,327-54-2736,523-12-5214,100-49-3490
+185551,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Garvey Greenier,4805-108,296-58-5198,597-92-7107,577-45-6464
+186708,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Kahaleel McPeeters,1100-110,369-15-2521,513-50-6056,398-46-1480
+187370,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ophelie Nemchinov,4773-102,367-13-0639,628-43-8933,669-64-9292
+187560,resolved,https://www.courts.wa.gov/court_rules/,guilty,Jeane Whitsun,5785-110,108-23-4456,206-67-3369,733-15-0300
+189592,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Valentijn Vasyutochkin,8140-120,748-65-3064,748-65-3064,837-78-8261
+190037,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Prent Selly,2911-118,213-93-0122,213-93-0122,315-38-4426
+190882,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Corrie Howton,6401-108,401-36-9299,526-03-5422,160-51-6345
+191460,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Emma Mulloch,1568-108,665-15-4411,448-28-9062,793-86-6496
+192413,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Grayce Saynor,6708-120,526-88-7489,526-88-7489,803-59-9631
+192745,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Tabatha Playdon,7692-118,599-45-5344,604-30-9646,579-84-8782
+193263,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Darsie Boise,6401-100,312-19-1735,781-10-6571,889-02-3506
+193968,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Hansiain Knightly,4805-104,303-94-6478,698-48-7328,847-90-6201
+197175,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Elsy Munkton,6401-112,512-36-8280,856-81-7846,659-65-0861
+197263,resolved,https://www.courts.wa.gov/court_rules/,guilty,Padraig Ambrosio,2911-114,656-51-2165,777-41-2922,827-59-7195
+197645,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Waylen Sheridan,6708-120,472-29-6570,886-97-5882,883-62-2119
+198364,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Myer Currington,3704-104,800-29-9360,136-51-8043,456-26-1606
+199009,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Lance Dinnage,3360-118,476-57-0400,805-22-4564,757-29-0118
+199127,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Brendan Kimmings,8757-122,116-93-3582,174-14-2326,755-72-7190
+199404,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Arda Ferrar,2911-114,149-29-8407,777-41-2922,151-05-9205
+199565,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Tracee Booij,4773-104,351-30-5734,286-15-0027,538-82-2223
+199846,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Hedda Sims,2423-122,111-12-2834,258-70-5396,878-91-9752
+200008,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Nicky Ciepluch,7692-118,780-59-2672,599-45-5344,779-57-3904
+200360,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Meridith Badder,8140-100,283-73-0943,616-98-3400,360-69-5616
+201331,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Oran Worrill,1100-104,710-23-9657,738-33-5317,401-28-5341
+201580,in_court,https://www.courts.wa.gov/court_rules/,guilty,Cherey Bleier,6708-116,436-87-5921,525-18-0199,570-98-5203
+202760,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Worden Jex,2911-118,381-97-9579,387-27-8434,767-88-8801
+203574,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Graig Kaygill,8140-100,249-94-3751,249-94-3751,822-97-6703
+203662,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Jone Thomsen,7692-106,742-13-0083,351-54-0549,641-08-1144
+203886,in_court,https://www.courts.wa.gov/court_rules/,guilty,Dione Danzey,1489-100,647-34-5812,763-47-7190,645-67-9498
+205373,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Humfrid Sauvage,6401-110,187-28-4130,291-47-1944,167-26-5669
+206142,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Reina Skipper,2911-106,785-62-8259,679-63-3737,755-17-9760
+206981,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Darbee Olyff,8140-124,140-86-5145,742-85-9121,310-55-6775
+207985,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Blanca Cleal,6708-120,750-95-8080,799-04-0889,883-62-2119
+208851,resolved,https://www.courts.wa.gov/court_rules/,guilty,Cristy Tetla,4613-106,735-25-5363,756-62-6086,636-01-9236
+209029,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Delores Ebbrell,2911-114,208-17-8822,656-51-2165,706-84-1520
+209406,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Walt Roskelly,6374-102,327-54-2736,327-54-2736,772-83-3329
+211096,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Gray Zold,4700-104,104-61-6529,564-13-6541,231-14-3431
+211678,in_court,https://www.courts.wa.gov/court_rules/,guilty,Nanette Andri,6708-122,147-25-5196,667-46-4297,882-60-5289
+211852,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Alta Polotti,1100-116,335-63-1324,218-70-2670,651-29-7125
+212095,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Tyler Filler,4773-118,610-32-3260,879-06-2158,667-86-2055
+212480,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Martynne Augur,0813-106,194-64-6500,402-36-0232,899-49-6176
+213468,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Barthel Camolli,1100-100,681-74-9879,887-58-5875,452-51-3479
+213982,resolved,https://www.courts.wa.gov/court_rules/,guilty,Piotr Cisson,0813-110,307-70-6151,598-24-8401,677-76-4680
+216126,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Nady Dowdell,1100-110,176-02-1483,513-50-6056,398-46-1480
+216235,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Michal Breens,2021-124,176-76-2512,821-13-8845,776-80-5548
+217408,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Siobhan Samber,2939-110,129-89-0414,556-29-9446,522-61-6698
+218980,resolved,https://www.courts.wa.gov/court_rules/,guilty,Wendall Zecchinii,3360-118,805-22-4564,560-32-7632,560-51-8074
+221157,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Vincenty Cancellieri,6708-106,530-30-0774,882-25-8581,462-56-1980
+222765,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Therese Cordobes,5785-110,108-23-4456,788-82-7494,875-16-4009
+224638,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Knox Whiterod,8757-112,261-18-2166,261-18-2166,739-51-2256
+224930,resolved,https://www.courts.wa.gov/court_rules/,guilty,Melvin Aidler,4805-104,284-26-7916,412-64-9829,849-92-5873
+225381,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Damita Carrett,1489-100,647-34-5812,124-06-6949,804-42-8235
+226373,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Karen Brayford,1568-124,129-67-0193,129-67-0193,113-68-7577
+230893,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Mag Enston,8140-114,502-07-5870,226-63-8285,215-48-0866
+231470,resolved,https://www.courts.wa.gov/court_rules/,guilty,Hilda Reddick,2911-114,777-41-2922,208-17-8822,548-34-8167
+231679,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Linnea Nashe,2423-124,240-39-4866,134-35-3337,875-61-0295
+232025,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Brady Robottom,2939-108,804-19-1491,804-19-1491,628-90-9186
+232327,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Bradford Chateau,0600-110,882-23-2908,405-44-3872,332-21-7771
+233385,in_court,https://www.courts.wa.gov/court_rules/,not guilty,John Goggen,1568-124,432-26-8411,212-25-3602,339-61-9896
+233564,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Regan Boother,2939-104,250-83-5541,258-21-1460,521-59-3048
+233618,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Jocelyn Daton,7692-118,599-45-5344,780-59-2672,684-15-9536
+234588,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Jordanna Coping,2939-102,253-16-0168,864-80-7444,678-39-9089
+234934,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Quentin Mushawe,0813-106,545-84-7542,402-36-0232,557-44-3432
+236157,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Holli Gini,4773-118,832-54-9261,252-85-2441,814-98-6336
+236881,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Aylmer Stearn,8140-114,502-07-5870,180-48-7881,714-08-5799
+237213,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Osbourn Scutter,8140-114,280-27-5377,502-07-5870,822-11-6985
+238746,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Gav Lundie,7692-118,181-77-5874,780-59-2672,779-57-3904
+239323,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Roselle MacCarrane,4268-124,705-80-7358,685-85-0594,675-77-6673
+239446,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Maggee Wolfindale,6708-116,436-87-5921,436-87-5921,428-46-0418
+239891,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Norrie Holyland,3360-118,560-32-7632,723-16-6450,769-47-5161
+242036,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Elbertina Harbin,2939-108,116-05-2373,788-67-1250,441-92-1584
+242391,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Lewie McCann,1489-100,761-32-6811,647-34-5812,545-90-3315
+242698,resolved,https://www.courts.wa.gov/court_rules/,guilty,Massimo Binning,1100-104,685-34-7700,760-72-0196,651-36-4744
+243026,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Arabel Hamelyn,1100-116,335-63-1324,571-47-1263,651-29-7125
+244353,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Emlynne Kerswill,6401-114,209-50-0401,739-76-3667,892-18-8501
+245048,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Trever De Fries,6374-102,172-21-9750,172-21-9750,571-69-8639
+245207,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Janis Nolte,3360-118,488-08-2600,488-08-2600,769-47-5161
+245498,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Sig Vanyarkin,7817-106,764-57-0411,649-04-2975,729-30-1909
+248004,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Basia Murrock,1489-100,763-47-7190,763-47-7190,810-55-5967
+248988,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Emilee Holtaway,7817-106,571-07-4367,764-57-0411,397-38-1542
+249880,resolved,https://www.courts.wa.gov/court_rules/,guilty,Miranda Dybald,1568-100,835-10-7201,855-46-2794,321-24-7796
+250704,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Skyler Crosi,6708-116,867-22-7460,878-58-7566,633-76-5946
+251609,resolved,https://www.courts.wa.gov/court_rules/,guilty,Geoff McGillecole,6401-108,526-03-5422,850-48-9127,278-86-6423
+251773,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Clarine Sushams,1568-108,183-23-2741,665-15-4411,104-42-5200
+252384,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ennis Bridgewater,5785-114,428-13-0731,671-99-5556,832-19-2656
+252558,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Jodie Castagne,1100-104,112-21-7280,290-19-1965,451-78-3005
+255331,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Kaine McSporrin,0600-110,432-30-5886,391-17-3340,481-95-6909
+258441,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Lonni Hazzard,5785-114,346-63-1828,346-63-1828,417-80-6328
+258891,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Grant Gepson,2939-104,737-42-2809,709-44-1544,631-20-6617
+259070,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Natka Burriss,6708-116,436-87-5921,736-55-6485,800-51-4229
+261759,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Oneida Roth,2423-124,881-63-9972,852-49-1213,607-67-2950
+262693,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Oralla Lightwing,4773-104,184-54-7545,699-48-0806,668-22-1890
+264008,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Manny Glander,0600-104,461-03-6455,547-79-4994,794-08-5162
+264370,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Jenny Malin,4773-104,348-53-8824,286-15-0027,538-82-2223
+266177,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Drusy Maclaine,4613-118,564-90-4413,392-97-5340,326-68-1618
+266414,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Norry Simmig,0813-106,567-16-4962,567-16-4962,683-93-2868
+266839,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Bren Benbough,4805-104,507-84-3370,412-64-9829,849-92-5873
+268831,resolved,https://www.courts.wa.gov/court_rules/,guilty,Cece Harryman,6708-122,356-37-7354,334-02-5035,406-06-3040
+269148,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Toma Kiljan,7692-120,336-88-2364,628-35-8432,738-88-8230
+271203,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Martie Ipsly,1489-100,763-47-7190,763-47-7190,720-96-0742
+271463,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Reta Hold,4268-124,356-39-0126,705-80-7358,691-75-2068
+272833,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Margaux Pavett,6708-120,526-88-7489,642-33-3501,137-83-6751
+272866,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Albert Barfitt,4805-108,268-26-5544,296-58-5198,174-86-2671
+273328,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Bridget Stannah,2939-100,446-83-3410,856-13-9614,396-64-0067
+273708,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Reine Dimond,6401-106,730-19-0601,446-50-1616,604-52-1509
+273792,resolved,https://www.courts.wa.gov/court_rules/,guilty,Brook Long,2939-100,693-02-3767,712-06-2292,415-09-0404
+276125,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Andris Ibbetson,8757-112,261-18-2166,587-84-7042,755-63-4512
+281924,resolved,https://www.courts.wa.gov/court_rules/,guilty,Debby Dedney,4613-118,392-97-5340,612-84-0564,707-42-2420
+282309,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Romeo Butt,6401-112,129-75-5405,512-36-8280,843-09-1240
+282367,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Dorette Lugsdin,7922-124,258-69-7111,816-67-9264,676-03-0943
+283064,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Padraig D'Oyley,4268-124,705-80-7358,685-85-0594,762-76-6208
+283763,in_court,https://www.courts.wa.gov/court_rules/,guilty,Freeman Jewel,2423-122,111-12-2834,258-70-5396,719-39-5097
+284289,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Murdock Eddy,1947-106,717-12-6742,439-23-0646,868-82-9733
+284313,in_court,https://www.courts.wa.gov/court_rules/,guilty,Guthrie Firidolfi,8140-124,166-66-0721,505-65-0712,723-85-5268
+284666,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Rowe Shillaker,2939-110,832-55-6623,887-66-6020,348-72-6005
+285280,resolved,https://www.courts.wa.gov/court_rules/,guilty,Carrol Rupke,1568-108,163-73-4864,448-28-9062,818-24-3677
+286116,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Stella McCann,1489-100,622-24-7567,763-47-7190,734-21-9519
+286398,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Brandtr Pencost,4773-102,523-20-1170,270-50-0293,669-64-9292
+286461,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Lorena Uccelli,1100-104,290-19-1965,827-01-0136,507-48-5204
+287985,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Arabella Mortell,2423-116,643-91-9391,531-27-9690,745-68-6909
+288158,resolved,https://www.courts.wa.gov/court_rules/,guilty,Byrle Allport,4773-102,270-50-0293,437-71-4238,730-17-8957
+288880,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Farra Ahrens,1489-124,286-08-6820,740-96-7392,698-70-5264
+290035,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Evy Burwin,5785-114,882-48-0443,882-48-0443,733-10-5568
+291321,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Sigvard Silcocks,3360-112,437-03-4413,621-05-0258,756-69-4430
+291739,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Salomon Harriday,1489-110,761-94-2452,869-25-8795,855-97-2879
+294385,in_court,https://www.courts.wa.gov/court_rules/,guilty,Norrie Frowen,2021-124,646-02-6477,821-13-8845,467-48-7617
+294771,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ethelred Gerrit,2911-114,206-13-8461,208-17-8822,784-87-2935
+295684,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Onida Heynel,6708-122,332-17-6917,667-46-4297,864-06-1125
+296672,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ethyl Simner,4773-104,699-48-0806,699-48-0806,731-17-8521
+297051,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Mathe Beades,8140-122,143-12-9031,184-17-1439,394-62-7695
+298036,resolved,https://www.courts.wa.gov/court_rules/,guilty,Beryl Flowerden,3571-114,536-02-6115,680-86-9500,323-94-6403
+298122,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Max Le Barr,7692-118,599-45-5344,604-30-9646,565-80-5291
+299800,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Waite Goulbourn,1489-100,622-24-7567,124-06-6949,533-24-2364
+300258,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Francine Fatharly,3360-106,400-37-3845,302-08-3160,301-82-6125
+300401,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Kile Merrigans,1100-116,139-50-9142,335-63-1324,387-95-8686
+301016,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Davina Sperrett,1489-124,346-26-0082,346-26-0082,735-41-5536
+301732,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Florella Tesdale,6708-106,406-43-9194,882-25-8581,407-76-0257
+302161,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Carolynn Dubois,7692-120,628-35-8432,626-83-2558,695-41-7953
+308770,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Valerye Addicote,1489-100,124-06-6949,124-06-6949,698-73-7105
+309429,in_court,https://www.courts.wa.gov/court_rules/,guilty,Eddie Sallows,2021-102,587-23-4428,424-04-3702,778-97-6817
+312411,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Darsie Sambell,8140-120,135-15-7078,135-15-7078,253-11-7229
+314018,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Veradis Busfield,2911-114,208-17-8822,307-54-2627,318-55-9543
+314242,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Delilah Fancourt,6401-124,886-06-2383,607-16-1404,291-28-9013
+315844,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ellyn Emig,2939-110,548-26-4588,722-84-6376,396-70-9757
+316176,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Anissa Osmant,4805-104,698-48-7328,284-26-7916,372-02-0798
+316932,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Fey Sacher,8140-122,879-83-9746,879-83-9746,840-98-7621
+318036,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Conrad Lackner,3571-102,465-88-0821,861-41-8404,204-49-8294
+318910,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Donall Gobolos,3571-114,546-61-2251,740-51-3147,204-41-1029
+320370,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Cleopatra Conniam,2911-118,381-97-9579,233-92-9220,754-84-3713
+320720,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Demetris Bradberry,9999-100,659-30-2917,252-48-0736,560-55-8700
+323411,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Bryn Hurdle,6708-122,667-46-4297,147-25-5196,632-77-1311
+325109,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Trace Lanfranchi,3360-106,400-37-3845,302-08-3160,756-68-5151
+326822,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Dacia Esslement,1947-112,513-27-1794,643-76-2988,871-62-4926
+327952,resolved,https://www.courts.wa.gov/court_rules/,guilty,August Glawsop,5785-110,334-46-8368,108-23-4456,733-15-0300
+328132,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Torr Strafford,8140-122,879-83-9746,607-90-1474,840-98-7621
+329590,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Shaylynn Drayn,6708-120,138-74-6218,886-97-5882,428-27-0597
+330835,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Arnoldo Bilbee,8140-110,201-58-3220,781-25-2194,838-18-7638
+331406,resolved,https://www.courts.wa.gov/court_rules/,guilty,Wilmar Wall,6401-110,838-01-0010,187-28-4130,479-23-3338
+332677,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Rab Kinnin,8140-124,667-31-9496,667-31-9496,717-55-8172
+333050,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Genovera Keohane,0600-112,274-42-2902,274-42-2902,597-12-1857
+335628,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Merola Nockles,3571-122,546-74-7217,684-61-2022,402-08-2285
+336597,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Tracy Wallis,6401-108,584-31-9438,850-48-9127,476-38-8145
+337126,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Valentine Kos,1947-106,141-90-0882,576-65-7780,778-14-9693
+338874,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Iggy Emlin,5785-114,346-63-1828,882-48-0443,873-50-1460
+339173,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Alano Gosswell,5785-104,829-06-0986,188-70-4037,701-31-7626
+340146,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Reginald Figgen,1568-108,820-14-3519,485-24-0489,319-74-5775
+340948,in_court,https://www.courts.wa.gov/court_rules/,guilty,Jessie Thaim,8140-114,619-18-9658,226-63-8285,432-63-6340
+341005,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Tonie Cuddehy,1100-116,542-51-7064,669-92-0934,184-39-0635
+341564,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Lion Chaman,0813-110,454-74-9267,307-70-6151,898-91-8536
+341813,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Stillman Foulger,8140-114,619-18-9658,502-07-5870,836-03-8754
+342740,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Shayne Ramey,4700-104,788-21-9575,898-54-5280,177-26-0021
+344536,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Maxine Eyer,6708-116,736-55-6485,436-87-5921,805-58-4009
+345469,resolved,https://www.courts.wa.gov/court_rules/,guilty,Lukas Olyet,6401-110,786-36-0678,838-01-0010,488-37-6254
+345741,in_court,https://www.courts.wa.gov/court_rules/,guilty,Martie Shearsby,3085-100,353-08-8345,533-42-5987,267-09-1077
+345878,in_court,https://www.courts.wa.gov/court_rules/,guilty,Ileane Humpherston,7692-120,499-22-1580,499-22-1580,832-17-4689
+346122,in_court,https://www.courts.wa.gov/court_rules/,guilty,Pippa Simmance,6401-106,319-44-8913,895-56-7540,888-54-8617
+346144,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Ralina Reaper,4773-102,286-23-6296,437-71-4238,816-05-1612
+348765,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Scarface McGonigal,9999-100,740-71-9401,738-40-3717,426-21-2212
+350727,resolved,https://www.courts.wa.gov/court_rules/,guilty,Benedikta Boobier,7817-106,571-07-4367,236-99-0161,492-81-2393
+351106,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Susy Aldington,7922-124,417-41-0144,289-17-0347,432-82-9775
+351552,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Jacenta Cridlan,3704-104,789-30-7345,832-36-1730,832-18-5516
+351762,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Olin Greene,8757-112,607-33-8140,261-18-2166,587-55-2205
+354280,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Cristabel Olden,4773-118,399-69-2407,832-54-9261,667-86-2055
+354702,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Alon Jaskiewicz,4773-104,111-22-3365,551-96-0032,663-44-2148
+354845,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Gabie Hugle,3360-106,215-91-0283,276-91-5763,301-82-6125
+356912,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Ram Alsop,2911-122,404-48-0300,681-10-3717,549-63-3811
+357972,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Doralynne Malyon,1568-108,820-14-3519,163-73-4864,526-41-6218
+359558,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Haven Newham,6401-100,601-84-4035,276-67-0571,488-14-1925
+360573,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Brittan Jedrzej,0813-110,492-09-3743,529-91-5824,898-91-8536
+361244,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Myrle Pickaver,9999-100,252-48-0736,740-71-9401,861-70-6864
+362329,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Agosto Bertin,6708-120,799-04-0889,650-35-0467,862-24-7656
+363225,in_court,https://www.courts.wa.gov/court_rules/,guilty,Dale Simionescu,4805-104,507-84-3370,698-48-7328,175-60-4814
+364552,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Win Roizn,4805-104,698-48-7328,440-32-1716,578-09-8825
+366615,in_court,https://www.courts.wa.gov/court_rules/,guilty,Wilfred Cowsby,4773-104,227-73-2714,229-60-9810,815-60-3422
+366649,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Joanna Citrine,0600-112,267-15-5097,595-36-5550,896-06-0453
+366666,in_court,https://www.courts.wa.gov/court_rules/,guilty,Carola Jurick,1568-108,183-23-2741,485-24-0489,341-05-6800
+368016,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Konstanze Gilvary,1100-110,365-23-7360,885-10-8254,398-46-1480
+368152,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Neall Zimek,7692-118,181-77-5874,604-30-9646,737-98-3226
+368387,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Grantley Iacovaccio,1568-100,728-59-5085,855-46-2794,793-16-9643
+368985,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Joane Menezes,0813-110,154-07-9921,154-07-9921,268-01-2798
+369361,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Daniele Winkworth,3360-112,516-97-3562,621-05-0258,309-62-7135
+369688,in_court,https://www.courts.wa.gov/court_rules/,guilty,Jacquenette Lammenga,6708-120,642-33-3501,526-88-7489,635-01-2044
+369808,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Boigie Thomas,2939-102,632-78-5229,253-16-0168,345-15-3489
+373305,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Matthieu Benedek,8140-114,823-62-6693,823-62-6693,714-08-5799
+375839,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Cass Stitcher,4773-102,286-23-6296,367-13-0639,663-87-1907
+378343,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Gae Conybear,8140-110,788-77-5777,781-25-2194,434-54-5783
+379232,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Georgena Yeend,2939-100,712-06-2292,886-56-7000,346-59-4258
+379279,resolved,https://www.courts.wa.gov/court_rules/,guilty,Courtnay Gernier,1100-116,201-02-3735,218-70-2670,624-49-9692
+379581,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Loutitia Van Niekerk,4268-106,744-21-1768,388-98-4676,499-59-5675
+379869,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Lucine Dumphy,4773-102,628-43-8933,395-87-4103,816-05-1612
+382037,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Siana Roycroft,8140-102,818-77-8533,853-02-8496,726-20-9836
+383066,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Sorcha Kitcatt,8757-112,607-33-8140,261-18-2166,754-44-2422
+383537,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Jessalyn Gherardelli,0813-114,347-98-5091,770-13-1354,383-11-0614
+384275,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Shay Bracken,2911-118,213-93-0122,387-27-8434,315-38-4426
+384338,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Garey Pactat,1100-104,872-17-9239,872-17-9239,451-78-3005
+384905,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Aurora Hlavac,2939-104,699-18-9855,250-83-5541,312-89-4134
+386738,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Lib Dorkens,6401-112,502-59-2516,293-85-2516,843-09-1240
+387024,resolved,https://www.courts.wa.gov/court_rules/,guilty,Rosina Horsewood,1100-116,604-42-3360,542-51-7064,453-53-6977
+388781,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Nari Godbehere,4773-104,551-96-0032,551-96-0032,663-44-2148
+390890,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Hildagard Congreve,5785-122,462-24-2809,593-21-9391,873-97-2987
+391354,in_court,https://www.courts.wa.gov/court_rules/,guilty,Ulrike Rivaland,0600-122,259-19-1686,623-71-4454,562-26-9814
+391655,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Anita Sprake,2911-114,777-41-2922,656-51-2165,827-59-7195
+391846,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Anita Zoellner,6708-120,750-95-8080,526-88-7489,356-09-2616
+392181,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Leandra Nolleth,4268-106,519-49-0274,388-98-4676,499-59-5675
+392838,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Denni Steketee,6708-106,649-09-6986,649-09-6986,407-76-0257
+393676,in_court,https://www.courts.wa.gov/court_rules/,guilty,Carla MacKegg,5785-114,882-48-0443,428-13-0731,221-61-7046
+394641,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Murvyn Trapp,3704-104,136-51-8043,746-16-7782,832-18-5516
+396454,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Stephanus Jatczak,8140-122,607-90-1474,607-90-1474,823-87-9528
+397201,resolved,https://www.courts.wa.gov/court_rules/,guilty,Paulie Kleinbaum,2911-118,387-27-8434,233-92-9220,829-28-6805
+397249,resolved,https://www.courts.wa.gov/court_rules/,guilty,Adolph Castagnone,8140-110,201-58-3220,201-58-3220,838-18-7638
+397910,in_court,https://www.courts.wa.gov/court_rules/,guilty,Irvine Longthorne,6401-110,786-36-0678,786-36-0678,844-34-3018
+398725,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Paton Durgan,1100-116,669-92-0934,218-70-2670,509-30-9120
+399272,in_court,https://www.courts.wa.gov/court_rules/,guilty,Danya Southwell,6401-110,291-47-1944,786-36-0678,600-70-9248
+399383,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Antoni Gartan,1489-100,622-24-7567,647-34-5812,749-83-3166
+402169,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Bartie Magowan,6708-116,878-58-7566,878-58-7566,409-63-7757
+402648,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Blakelee Mervyn,1100-100,348-28-4231,168-42-4136,184-27-3835
+403115,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Fredericka Vittori,4613-106,192-59-7554,756-62-6086,743-87-7965
+404757,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Nial Ayre,4805-108,764-56-6492,105-49-5346,384-69-1427
+406184,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Anetta Reimer,3360-118,488-08-2600,560-32-7632,307-58-9859
+406276,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Freemon Katt,6401-106,895-56-7540,446-50-1616,447-19-5911
+406369,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Thibaut Otley,8140-104,165-46-3512,544-78-8318,311-05-1633
+406677,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Sam Lunt,1489-100,647-34-5812,482-59-6333,753-73-8073
+407031,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Ellynn Bagehot,6401-108,584-31-9438,894-66-8353,278-86-6423
+407067,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Amandie Caro,6708-106,287-93-3797,428-19-9096,157-98-4869
+407142,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Levey Robotham,2423-108,728-36-9975,651-23-1790,746-56-0834
+407385,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Ripley Roostan,4700-104,898-54-5280,548-75-5399,534-73-5162
+409161,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Garvin McAllen,8140-120,135-15-7078,673-33-3136,727-38-2725
+409476,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Leopold Ovett,6401-108,634-32-2227,756-09-7219,661-85-4131
+409866,resolved,https://www.courts.wa.gov/court_rules/,guilty,Audra Stemp,6708-106,444-47-9809,649-09-6986,462-56-1980
+410190,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Mayer Rysom,1100-110,369-15-2521,816-70-5401,388-82-9828
+410355,in_court,https://www.courts.wa.gov/court_rules/,guilty,Marlyn Delgardillo,2911-106,445-68-9334,785-62-8259,317-65-3625
+410475,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Farrah Fitzsymonds,0600-110,405-44-3872,473-56-2674,894-15-9419
+411653,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Alberta Imbrey,2939-110,129-89-0414,820-05-8945,411-58-1504
+411823,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Olivier Judson,2939-102,172-69-8751,615-58-9774,395-81-1031
+412111,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Birch Tye,7817-106,571-07-4367,764-57-0411,707-81-4549
+413427,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Auria Meriot,6401-108,398-47-8954,634-32-2227,476-38-8145
+413837,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Berthe Napthine,2423-122,258-70-5396,258-70-5396,878-91-9752
+414209,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Rhea Gilders,3085-100,315-60-9969,315-60-9969,729-48-6724
+415870,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Evangeline Peek,7922-124,459-43-5955,642-20-1446,492-71-3837
+415885,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Marnie Valentelli,6401-104,590-90-9378,436-33-1850,597-60-4603
+416485,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Loren Castletine,2939-102,850-17-1916,864-80-7444,395-81-1031
+416907,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Belva Darinton,0600-112,595-36-5550,569-78-6620,235-18-6698
+419350,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Shayla Esland,1100-116,218-70-2670,335-63-1324,184-39-0635
+419376,in_court,https://www.courts.wa.gov/court_rules/,guilty,Kandy Gut,4700-104,830-30-9433,548-75-5399,493-12-2997
+419404,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Stafani Kesey,6708-122,573-95-8618,332-17-6917,133-97-3189
+419993,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Cosetta Gibbeson,2021-102,424-04-3702,759-48-1434,783-23-3476
+420713,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ardith Fawcitt,7692-106,794-62-6350,742-13-0083,830-27-1975
+422691,in_court,https://www.courts.wa.gov/court_rules/,guilty,Zebulon Guillford,0813-106,837-53-9845,837-53-9845,751-98-0163
+423523,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Grier Slopier,5785-122,356-72-7977,855-92-2872,638-11-1719
+425433,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Emelen Munkton,4613-118,392-97-5340,850-83-4555,707-42-2420
+426258,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Pat Cutforth,4773-118,399-69-2407,611-09-7782,730-58-2568
+427470,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Maynord Chalice,2911-114,208-17-8822,387-25-1188,767-46-1800
+427594,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Paton Pleasaunce,6401-112,129-75-5405,512-36-8280,889-93-0171
+428047,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Daniela Aubrey,3360-106,641-80-2688,267-78-7221,560-19-5592
+428170,resolved,https://www.courts.wa.gov/court_rules/,guilty,Merci Petow,3571-102,308-16-1736,581-30-1976,401-63-5056
+429195,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Vally Agates,6708-120,551-73-5561,650-35-0467,462-38-4756
+430799,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Kellia Perl,1947-124,241-65-5732,834-99-3273,262-86-5534
+431100,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Reine Reinger,4773-104,111-22-3365,348-53-8824,815-60-3422
+431526,in_court,https://www.courts.wa.gov/court_rules/,guilty,Ashlen Guitonneau,8140-114,226-63-8285,669-41-0587,391-79-0439
+432227,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Sibylla Normanville,2423-108,884-37-4605,761-85-9364,702-43-0979
+432571,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Kipp Cuvley,8757-122,174-14-2326,708-16-1255,754-70-2296
+433948,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Margie Morrow,2423-124,240-39-4866,604-42-3458,746-74-9940
+435182,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Margery Ceely,6401-124,232-96-9409,886-06-2383,843-20-5327
+435447,in_court,https://www.courts.wa.gov/court_rules/,guilty,Felicity Bardwell,4700-104,564-13-6541,898-54-5280,233-73-6368
+437617,resolved,https://www.courts.wa.gov/court_rules/,guilty,Dasi Ayrs,2423-108,754-42-0766,728-36-9975,556-39-6368
+438832,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Emmalynne Leaves,6708-106,444-47-9809,530-30-0774,799-70-4641
+440827,in_court,https://www.courts.wa.gov/court_rules/,guilty,Dalton Rouke,2939-102,864-80-7444,696-38-6777,129-04-5147
+441826,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Hillie Conyers,1100-100,867-46-9728,276-60-9397,623-94-9095
+441836,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Xylina Craigg,2911-114,122-08-8568,206-13-8461,228-83-5535
+443572,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Roxanna Stert,8140-110,788-77-5777,781-25-2194,728-40-7831
+446055,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Donny Rue,4268-106,744-21-1768,744-21-1768,691-45-1139
+446283,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Rowen Snary,1947-106,576-65-7780,233-97-0952,474-19-6914
+447977,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Celestia Sandars,4613-118,610-37-6493,612-84-0564,866-61-2854
+448077,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Tiphani Aspland,0600-122,623-71-4454,623-71-4454,795-97-1394
+449007,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Marv Willimott,7817-106,764-57-0411,764-57-0411,861-96-0815
+449059,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Lawrence Gudger,2939-104,258-21-1460,250-83-5541,681-16-5412
+449268,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Elli Fawltey,1100-116,359-27-1435,604-42-3360,387-95-8686
+452510,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Lin Fricker,2939-110,537-24-1002,887-66-6020,629-58-9343
+455684,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Fin Taggart,4613-106,214-41-4846,192-59-7554,327-24-5755
+455866,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Anastasie Gable,2021-124,176-76-2512,646-02-6477,378-81-2438
+455957,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Welsh Logsdail,1489-100,482-59-6333,812-50-4919,804-42-8235
+456000,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Amargo Slainey,3085-100,192-53-4589,414-68-0779,691-06-1239
+456069,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Morry Antonio,6708-106,428-19-9096,444-47-9809,632-41-9542
+458363,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Durante Simmell,8757-112,587-84-7042,607-33-8140,119-20-0533
+460420,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Jeremy Guilloneau,6708-122,334-02-5035,356-37-7354,464-90-3022
+460486,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Adler Shurmore,1489-124,758-74-0214,758-74-0214,260-03-9447
+463398,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Vivian Brosoli,4613-106,708-74-2214,399-82-4717,327-24-5755
+463710,in_court,https://www.courts.wa.gov/court_rules/,guilty,Sonya De Mico,2911-118,387-27-8434,381-97-9579,767-88-8801
+466301,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Em Henrichsen,7817-106,571-07-4367,649-04-2975,729-30-1909
+466896,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Georgena McAster,3360-112,312-64-9500,669-62-8400,756-69-4430
+467359,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Brandon Arnoldi,2939-100,886-56-7000,801-27-8471,628-78-0033
+467844,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Cal Curtin,3360-112,621-05-0258,516-97-3562,756-69-4430
+468010,resolved,https://www.courts.wa.gov/court_rules/,guilty,Taite Hows,6401-104,402-47-8834,769-02-7224,893-42-9019
+468074,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Abelard Claus,1568-100,684-88-9724,835-10-7201,104-75-6405
+468076,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ginger Jurczik,1568-108,820-14-3519,769-42-2396,793-86-6496
+469054,resolved,https://www.courts.wa.gov/court_rules/,guilty,Erhart Cassley,2939-104,250-83-5541,709-44-1544,681-16-5412
+470346,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Penny Eckford,1100-116,537-19-5854,669-92-0934,509-30-9120
+470529,resolved,https://www.courts.wa.gov/court_rules/,guilty,Zaccaria Clemence,0600-104,461-03-6455,418-47-6429,257-25-2217
+471796,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Alejandro Wanka,8140-104,544-78-8318,544-78-8318,835-91-5218
+472473,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Hurlee Cicchinelli,2911-114,387-25-1188,777-41-2922,548-34-8167
+474443,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Alec Brunelleschi,4613-118,612-84-0564,612-84-0564,561-11-9960
+474861,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Maritsa Brommage,5785-104,223-98-1089,847-13-1704,689-61-5613
+474989,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Woodie Matzke,0600-122,404-04-8585,259-19-1686,895-67-6519
+475745,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Immanuel Tivers,8140-122,184-17-1439,121-92-1607,723-96-1978
+475784,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Adoree McMaster,5785-104,223-98-1089,847-13-1704,465-25-2299
+477893,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Carmen Sunner,4805-104,412-64-9829,412-64-9829,422-21-4958
+478090,resolved,https://www.courts.wa.gov/court_rules/,guilty,Christabel Ashdown,0813-110,154-07-9921,529-91-5824,683-59-5486
+480781,in_court,https://www.courts.wa.gov/court_rules/,guilty,Egan Orrow,0813-110,307-70-6151,529-91-5824,683-59-5486
+480924,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Catrina Banger,4805-104,303-94-6478,303-94-6478,549-96-0554
+481280,resolved,https://www.courts.wa.gov/court_rules/,guilty,Andrej Yeo,0600-104,109-40-6855,418-47-6429,765-41-3405
+482750,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Guthrie Casarino,6401-124,607-16-1404,714-30-6382,283-74-5052
+485115,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Darla Rewcassell,6401-108,894-66-8353,690-75-6207,601-09-2279
+487489,resolved,https://www.courts.wa.gov/court_rules/,guilty,Malena Wilds,1489-100,482-59-6333,124-06-6949,655-17-0118
+488204,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Dorene Talby,4805-108,472-63-0366,597-92-7107,846-86-6673
+490061,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Nerita Rosenfarb,7692-106,197-36-2154,636-88-4987,779-50-7003
+490790,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Kevin Feehely,2911-114,122-08-8568,307-54-2627,548-34-8167
+493820,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Ede Adne,2423-122,258-70-5396,111-12-2834,703-34-7149
+495016,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Tarra Kingswoode,0813-110,382-05-4321,454-74-9267,557-10-0169
+495129,resolved,https://www.courts.wa.gov/court_rules/,guilty,Katalin Tytherton,1489-110,162-52-4525,869-25-8795,811-52-9315
+495778,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Esmaria Togwell,3085-100,308-42-7162,308-42-7162,879-21-3908
+495784,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Meggy Strongitharm,2911-122,120-28-3545,463-29-1078,704-58-0902
+496154,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Man Tupp,2423-122,111-12-2834,258-70-5396,384-86-7400
+496205,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Marylin Rowly,1100-116,139-50-9142,139-50-9142,624-49-9692
+496939,resolved,https://www.courts.wa.gov/court_rules/,guilty,Leif McCuffie,4773-118,567-36-1271,879-06-2158,667-86-2055
+497878,resolved,https://www.courts.wa.gov/court_rules/,guilty,Whitby Alvares,4268-106,388-98-4676,841-01-7263,765-15-2167
+498193,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Ernie Oldaker,0600-110,405-44-3872,405-44-3872,339-56-0799
+498280,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ly Bene,2939-110,548-26-4588,832-55-6623,629-58-9343
+499657,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Armstrong Kellet,2423-124,487-02-3714,778-70-9848,182-91-2693
+499696,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Dode Trime,7692-120,626-83-2558,499-22-1580,780-20-1018
+500041,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Jessey Dracksford,2939-100,324-29-1781,324-29-1781,443-32-9331
+502294,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Port Roger,4773-102,523-20-1170,523-20-1170,730-17-8957
+502544,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ahmad Americi,1568-100,723-78-7511,728-59-5085,818-16-5954
+503509,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Woodie Jorge,1568-100,232-51-9411,723-78-7511,457-95-3276
+506047,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Mohandas Cluatt,1947-112,601-84-1295,513-27-1794,437-79-7863
+506091,in_court,https://www.courts.wa.gov/court_rules/,guilty,Elnar Honniebal,1568-124,129-67-0193,129-67-0193,818-27-1251
+506971,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Miriam MacCroary,8140-104,165-46-3512,165-46-3512,212-20-1544
+510435,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Skyler Pampling,1489-124,740-96-7392,755-42-9395,805-32-0671
+512053,in_court,https://www.courts.wa.gov/court_rules/,guilty,Marga Dumbleton,1100-104,112-21-7280,290-19-1965,388-70-1696
+512558,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Mirabella Kuna,6708-106,649-09-6986,428-19-9096,879-63-3176
+512704,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Rosabelle Cours,0600-110,473-56-2674,882-23-2908,519-65-2347
+514390,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Tadeo Wilmot,2911-114,149-29-8407,149-29-8407,318-55-9543
+514615,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Shepard Linklater,2423-122,111-12-2834,111-12-2834,745-07-0573
+515103,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Betsey Schott,4773-102,298-08-2559,395-87-4103,669-64-9292
+519571,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Mal Harron,6401-104,436-33-1850,606-83-4450,477-76-5403
+519691,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Bennie Casbon,5785-104,188-70-4037,223-98-1089,649-06-3043
+521358,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Lidia Domm,0600-110,391-17-3340,432-30-5886,256-80-9584
+521586,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Elizabet Ricart,2423-116,763-09-1615,763-09-1615,609-61-3181
+521706,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Sada Staples,4613-118,850-83-4555,392-97-5340,636-18-5560
+521795,resolved,https://www.courts.wa.gov/court_rules/,guilty,Lucais Shillito,4613-106,399-82-4717,399-82-4717,119-24-0657
+522041,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Dilan Cumberbatch,0813-114,663-88-8438,489-03-0353,375-34-6954
+523661,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Alick Tasseler,1100-110,481-76-2247,885-10-8254,508-60-2146
+527208,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Lindi Crossthwaite,8140-100,216-97-1067,283-73-0943,310-70-5700
+529926,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Alida Caras,4613-118,288-22-0645,610-37-6493,561-11-9960
+531502,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Timothee Bohden,8140-124,742-85-9121,658-32-7840,206-73-5019
+532067,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Libbi Jarmain,4773-102,437-71-4238,437-71-4238,730-17-8957
+534203,resolved,https://www.courts.wa.gov/court_rules/,guilty,Ransom Corby,1947-124,834-99-3273,852-18-2405,335-01-7637
+534782,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Florian Yearn,1947-124,852-18-2405,586-19-1720,778-43-6639
+537159,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Alli Trayford,0600-110,432-30-5886,391-17-3340,249-25-4917
+537562,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Tamarra Goady,4700-104,548-75-5399,104-61-6529,615-82-9745
+543270,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Etheline Standish,3571-102,308-16-1736,810-34-3730,401-63-5056
+543549,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Lev Pringell,0600-122,404-04-8585,404-04-8585,765-24-4730
+543791,in_court,https://www.courts.wa.gov/court_rules/,guilty,Cornell Rivard,6401-112,502-59-2516,129-75-5405,277-93-9301
+544117,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Keir Blenkhorn,2911-106,372-52-7120,445-68-9334,228-60-7810
+546632,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Harlen Behn,2911-114,149-29-8407,208-17-8822,767-46-1800
+546964,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Byram Lerven,1947-106,233-97-0952,661-52-8175,524-38-9234
+547172,in_court,https://www.courts.wa.gov/court_rules/,guilty,Antone Craddock,3360-106,454-93-8562,454-93-8562,516-06-7518
+547473,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Reed Tewkesbury.,7922-124,289-17-0347,597-95-0415,693-17-6962
+548220,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Ravi Southcoat,0600-110,432-30-5886,882-23-2908,575-81-8143
+548736,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Pearline Skeath,0600-122,259-19-1686,259-19-1686,596-39-3726
+549143,in_court,https://www.courts.wa.gov/court_rules/,guilty,Kerry Prothero,6708-116,525-18-0199,878-58-7566,152-94-4764
+550123,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Desirae Skeat,0600-104,192-76-0381,739-18-5188,597-18-3829
+554716,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Tish Fullstone,8140-100,216-97-1067,249-94-3751,839-79-4451
+557544,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Hort Helder,2911-122,426-67-7034,463-29-1078,286-94-8731
+559051,in_court,https://www.courts.wa.gov/court_rules/,guilty,Winston Garth,8757-122,708-16-1255,708-16-1255,524-92-9805
+559434,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Tim Staveley,8140-104,165-46-3512,882-53-4895,821-32-2644
+560783,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Garnet Baythorp,2939-102,172-69-8751,379-25-6271,441-96-0357
+560887,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Doria Skilling,8140-124,505-65-0712,658-32-7840,542-53-8013
+562160,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Lydie Greenhough,8140-114,226-63-8285,280-27-5377,836-03-8754
+565048,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Lari Tolan,1568-124,212-25-3602,168-48-7836,331-63-4679
+566820,in_court,https://www.courts.wa.gov/court_rules/,guilty,Parry Syne,6401-108,401-36-9299,401-36-9299,447-12-1794
+567378,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Noe Darben,8140-114,669-41-0587,730-48-7842,196-80-9763
+567565,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Opalina Zorer,6401-106,316-42-4973,319-44-8913,492-08-4476
+568273,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ignacius Matzaitis,8140-124,742-85-9121,627-25-1268,717-55-8172
+570082,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Mercie Mourbey,4268-106,744-21-1768,519-49-0274,248-29-1717
+571396,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Mady Morrad,7817-106,236-99-0161,764-57-0411,468-16-8121
+571747,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Issi Scase,3571-114,536-02-6115,740-51-3147,550-42-8726
+572537,in_court,https://www.courts.wa.gov/court_rules/,guilty,Elsworth Kinder,3571-122,684-61-2022,546-74-7217,451-40-8628
+572585,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Nissa Gozzard,1489-100,761-32-6811,763-47-7190,749-83-3166
+572907,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Nial Spurden,3360-106,196-90-9192,531-28-3522,560-19-5592
+573239,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Karia Verriour,5785-104,223-98-1089,829-06-0986,121-72-1546
+573778,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Dallas Itzhaiek,4700-104,898-54-5280,548-75-5399,177-26-0021
+575650,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Fields Hourstan,1489-110,261-86-4078,829-21-7019,261-46-3632
+576938,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Norah Stigers,2911-114,777-41-2922,387-25-1188,754-75-3183
+578584,resolved,https://www.courts.wa.gov/court_rules/,guilty,Nealson Caldairou,4613-106,735-25-5363,144-49-6336,561-19-5381
+578727,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Jolene Aspden,3360-118,805-22-4564,805-22-4564,301-15-1866
+579842,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Martainn Greason,8140-102,818-77-8533,773-73-3135,836-08-6174
+580582,resolved,https://www.courts.wa.gov/court_rules/,guilty,Edan Wolland,1489-124,306-71-3493,755-42-9395,698-70-5264
+580912,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Travus Riglar,4773-104,227-73-2714,351-30-5734,147-21-5857
+581939,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Blinni Aldwinckle,2939-110,820-05-8945,832-55-6623,312-69-0502
+582525,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Merlina Johnes,2939-110,887-66-6020,556-29-9446,348-72-6005
+582986,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Rosalynd McCann,1947-112,147-11-2492,601-84-1295,472-83-1637
+586212,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Bord Pirnie,4773-118,611-09-7782,610-32-3260,730-58-2568
+589465,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Miller Patullo,6401-108,850-48-9127,850-48-9127,893-11-2270
+590067,resolved,https://www.courts.wa.gov/court_rules/,guilty,Veronike Costard,6401-112,293-85-2516,293-85-2516,479-78-6573
+590145,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Hal Rapi,1489-100,812-50-4919,482-59-6333,810-55-5967
+591164,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Anett Walentynowicz,2911-114,777-41-2922,656-51-2165,767-46-1800
+591422,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Lion Gelland,1568-124,700-42-6220,168-48-7836,224-86-7521
+592075,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Dick Sparkwill,1489-124,286-08-6820,740-96-7392,753-26-1834
+593971,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Letisha Everest,6401-108,894-66-8353,584-31-9438,843-20-6193
+596272,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Scottie Ackroyd,0600-112,569-78-6620,274-42-2902,519-62-8307
+596276,in_court,https://www.courts.wa.gov/court_rules/,guilty,Kathie Barok,4773-104,184-54-7545,351-30-5734,815-60-3422
+596677,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Leila Fashion,8140-124,627-25-1268,742-85-9121,840-91-3483
+597019,in_court,https://www.courts.wa.gov/court_rules/,guilty,Bail Seymer,8140-122,121-92-1607,879-83-9746,200-94-1797
+597557,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Husein Toleman,0813-110,529-91-5824,307-70-6151,898-91-8536
+597656,in_court,https://www.courts.wa.gov/court_rules/,guilty,Reinald Schober,3360-118,723-16-6450,805-22-4564,769-47-5161
+598799,resolved,https://www.courts.wa.gov/court_rules/,guilty,Miltie Haxell,8757-112,607-33-8140,587-84-7042,119-20-0533
+599907,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Rosaline Eglise,1100-116,669-92-0934,571-47-1263,397-87-7538
+602220,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Jasun Daud,8140-120,890-27-5563,891-02-4856,240-90-5841
+604382,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Tanya Kilius,0813-110,287-83-1678,307-70-6151,383-95-1526
+605101,resolved,https://www.courts.wa.gov/court_rules/,guilty,Lena Brackenbury,7692-106,521-96-2669,794-62-6350,697-19-7107
+605880,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Elijah Boscott,7692-106,521-96-2669,636-88-4987,736-55-1059
+607768,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Sharai Doggerell,2423-108,884-37-4605,884-37-4605,647-39-7358
+608665,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Verge Volette,0813-114,855-85-6441,663-88-8438,676-11-4997
+609119,resolved,https://www.courts.wa.gov/court_rules/,guilty,Carey Brewers,4268-106,477-26-3173,885-41-5161,326-64-0634
+609163,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Farly Flather,1100-104,242-65-5383,515-35-4932,651-36-4744
+609251,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Luis Trahearn,1568-100,253-94-4830,684-88-9724,113-23-6467
+610005,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Diego Dandy,3571-114,891-68-1137,891-68-1137,595-21-0717
+610997,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Haven Marder,4268-124,861-61-9976,539-48-2897,249-14-8089
+611270,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Harrie Briars,1947-106,141-90-0882,800-96-9097,239-53-0528
+612254,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Nicolina Marriage,3360-118,723-16-6450,560-32-7632,757-29-0118
+612527,resolved,https://www.courts.wa.gov/court_rules/,guilty,Renaldo Pipes,1100-116,201-02-3735,542-51-7064,453-53-6977
+613310,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Andrus Yelland,1489-110,261-86-4078,761-94-2452,645-57-8238
+614157,resolved,https://www.courts.wa.gov/court_rules/,guilty,Neila Pammenter,2423-116,650-35-7298,452-11-7128,180-46-1381
+614375,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Wanda Perse,3085-100,414-68-0779,884-65-9731,809-57-7830
+614667,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Tammie Gabel,6401-110,291-47-1944,291-47-1944,450-01-8956
+616556,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Bern Alderwick,1568-100,174-26-1562,174-26-1562,321-24-7796
+616955,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Boyce Gunson,2423-116,643-91-9391,650-35-7298,647-65-2481
+617871,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Cayla O'Keaveny,5785-110,228-29-2235,206-67-3369,588-40-7136
+618151,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Isis Coon,4700-104,104-61-6529,564-13-6541,685-47-5877
+618442,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Gretna Dayly,4805-108,202-06-2837,727-41-2052,708-60-8743
+622792,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Athena Tither,3571-102,465-88-0821,861-41-8404,550-23-4881
+623469,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Livvyy Davidovich,5785-122,356-72-7977,593-21-9391,419-03-7773
+623578,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Evyn Shallo,2911-114,206-13-8461,387-25-1188,286-99-2451
+624140,in_court,https://www.courts.wa.gov/court_rules/,guilty,Roobbie Beloe,1489-110,869-25-8795,508-67-0117,750-19-3043
+626767,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Aluino Harmstone,7817-106,764-57-0411,764-57-0411,686-95-4504
+626790,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Chanda Fillan,4805-108,597-92-7107,597-92-7107,708-60-8743
+626833,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Irvine Froment,4613-118,648-93-5262,850-83-4555,707-42-2420
+628574,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Shermie Mallaby,6401-100,601-84-4035,601-84-4035,660-04-9295
+628929,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Olvan Inkin,6401-124,607-16-1404,886-06-2383,492-56-6062
+629331,resolved,https://www.courts.wa.gov/court_rules/,guilty,Derrik Burwell,6401-104,682-01-9176,682-01-9176,597-60-4603
+630012,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Anastasia Cosans,9999-100,584-77-7213,659-30-2917,591-95-8384
+631081,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Rodolph Swyn,1947-112,147-11-2492,140-22-5423,524-18-7144
+631114,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Penelopa Hubert,8757-122,174-14-2326,708-16-1255,739-15-4253
+632047,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Kati MacCafferky,7692-106,521-96-2669,794-62-6350,830-27-1975
+632773,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Helaina Laying,8140-122,121-92-1607,577-73-3771,394-62-7695
+633725,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Oran Rowntree,7692-118,780-59-2672,604-30-9646,305-55-5256
+635054,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Fiorenze Debold,2423-122,111-12-2834,111-12-2834,555-20-3243
+635232,resolved,https://www.courts.wa.gov/court_rules/,guilty,Eustacia Craufurd,8757-122,116-93-3582,116-93-3582,586-37-7286
+637506,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Allix Derdes,4805-104,507-84-3370,303-94-6478,384-53-1324
+638544,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Cristina Morsom,2423-108,761-85-9364,761-85-9364,180-75-8703
+638889,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Aviva Applegate,9999-100,470-42-6925,659-30-2917,690-97-7105
+638945,resolved,https://www.courts.wa.gov/court_rules/,guilty,Randy Harse,6401-108,634-32-2227,398-47-8954,160-51-6345
+641954,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Samson Cronchey,5785-114,882-48-0443,428-13-0731,302-99-2568
+642797,resolved,https://www.courts.wa.gov/court_rules/,guilty,Gregoor Gravener,8140-120,413-16-1264,890-27-5563,717-42-4267
+645029,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Karisa Adel,2939-110,537-24-1002,832-55-6623,312-69-0502
+645545,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Chandra Vayro,2423-122,258-70-5396,258-70-5396,297-99-1128
+646505,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Matty Shaddock,7922-124,660-65-8460,258-69-7111,460-26-8240
+646611,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Briggs Simanenko,1100-100,681-74-9879,348-28-4231,650-24-0226
+646737,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Ashley Walker,5785-110,485-36-2079,228-29-2235,833-54-5830
+646807,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Andre Moscrop,2911-122,463-29-1078,387-21-5553,704-58-0902
+646808,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Wendeline Kiehne,1568-108,163-73-4864,769-42-2396,224-46-7355
+646834,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Courtnay Siemianowicz,0600-110,391-17-3340,882-23-2908,276-28-8078
+647184,resolved,https://www.courts.wa.gov/court_rules/,guilty,Bobine D'Errico,5785-122,855-92-2872,462-24-2809,591-90-5723
+647490,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Jaime Overell,1100-116,537-19-5854,218-70-2670,624-49-9692
+648071,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Yehudi Lepoidevin,2021-102,759-48-1434,716-21-1394,369-99-0167
+648305,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Jobey Hounsom,2911-106,324-70-1216,372-52-7120,829-11-7366
+648802,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Panchito Galler,4805-104,440-32-1716,440-32-1716,564-41-1910
+649886,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Joyan Evamy,1489-124,368-13-8919,758-74-0214,611-98-7667
+650093,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Isabeau Trahair,2911-122,404-48-0300,463-29-1078,768-32-9354
+650308,in_court,https://www.courts.wa.gov/court_rules/,guilty,Valma Bomfield,6401-110,291-47-1944,838-01-0010,844-34-3018
+651040,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Elnar Brimmicombe,1100-110,279-89-3498,645-38-7386,388-82-9828
+651482,in_court,https://www.courts.wa.gov/court_rules/,guilty,Taddeo Cudihy,2423-116,650-35-7298,643-91-9391,439-77-2493
+651517,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Bekki MacDonnell,3360-118,476-57-0400,476-57-0400,757-29-0118
+651618,in_court,https://www.courts.wa.gov/court_rules/,guilty,Moreen Kobpa,5785-114,346-63-1828,681-81-2305,866-29-4953
+652584,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Brenna Robarts,2911-106,372-52-7120,679-63-3737,767-09-3190
+653098,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Waylin St. Paul,2939-102,615-58-9774,864-80-7444,413-40-2084
+655781,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Bastien Genders,4805-104,440-32-1716,698-48-7328,847-90-6201
+657487,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Tiphanie Ventam,3360-112,437-03-4413,621-05-0258,121-69-7746
+658317,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Quintana Ianson,0813-114,631-32-6477,711-85-2696,752-09-4321
+661053,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Beniamino Attenborrow,4805-108,105-49-5346,472-63-0366,851-42-2908
+661106,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Zoe Edlin,3360-106,276-91-5763,641-80-2688,560-19-5592
+661700,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ellerey Hawarden,6401-100,276-67-0571,501-74-8750,474-77-1447
+662019,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Mariam Bartaletti,8757-122,529-73-5495,310-70-5486,739-15-4253
+662890,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ron Lister,0813-110,307-70-6151,492-09-3743,747-31-8579
+663591,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Beverie Ravenscroft,3571-122,649-14-0909,732-68-0857,324-04-5483
+663905,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Olag Swannack,8140-114,730-48-7842,502-07-5870,432-63-6340
+664007,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Winna Gutch,3360-118,723-16-6450,723-16-6450,301-15-1866
+665421,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Burlie Alebrooke,0600-104,418-47-6429,109-40-6855,482-33-7713
+665697,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Lancelot Fridaye,4805-104,412-64-9829,440-32-1716,191-33-5167
+665775,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Adena Lippitt,2911-118,381-97-9579,381-97-9579,784-09-2629
+666187,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Cobby Flory,2939-108,788-67-1250,149-44-1921,682-91-2685
+667802,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Adey Velde,8140-122,143-12-9031,184-17-1439,541-65-6241
+669638,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Rosella Tourne,2939-100,886-56-7000,856-13-9614,314-55-8015
+670916,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Goldie Ardling,4805-108,650-81-3497,268-26-5544,565-28-5299
+673753,resolved,https://www.courts.wa.gov/court_rules/,guilty,Torey Hacard,2939-110,722-84-6376,129-89-0414,682-24-3925
+674112,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Arlie Noon,8140-120,135-15-7078,384-30-8313,434-26-7316
+674287,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Donnie Gittings,2939-102,864-80-7444,864-80-7444,129-04-5147
+674703,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Delcina Gravenall,2939-104,699-18-9855,250-83-5541,417-70-8575
+674814,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Prissie Rasper,0600-122,404-04-8585,569-06-3939,256-19-9298
+674965,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Almeda Leggate,0813-114,770-13-1354,855-85-6441,676-11-4997
+675227,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Carmelle Waldren,0600-104,418-47-6429,547-79-4994,250-55-6191
+676134,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Wandie Placstone,2423-124,778-70-9848,489-01-7995,297-81-4928
+677835,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Stesha Jowling,5785-114,346-63-1828,882-48-0443,359-75-2012
+679926,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Pincus Doche,1100-104,290-19-1965,242-65-5383,451-78-3005
+680653,resolved,https://www.courts.wa.gov/court_rules/,guilty,Laural Chesters,1947-112,140-22-5423,513-27-1794,237-62-6930
+681554,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Tallia Calderon,2423-124,852-49-1213,881-63-9972,703-88-6375
+681570,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Nikolia Kalinovich,2423-116,284-39-2398,531-27-9690,110-25-7339
+682040,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Tanney McCrackan,0813-114,711-85-2696,855-85-6441,897-19-9552
+682470,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Ali Trowl,1100-104,377-71-3976,872-17-9239,507-48-5204
+682654,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Reider Querrard,8140-100,283-73-0943,632-77-3104,839-79-4451
+685512,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Janeczka Charopen,6401-114,739-76-3667,455-70-0233,658-62-4433
+685963,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Mauricio Robertsen,2423-116,763-09-1615,650-35-7298,720-09-6192
+687360,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Modesty Boutcher,3571-122,619-23-3658,649-14-0909,203-42-2448
+687419,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Shauna Pinkstone,2939-100,324-29-1781,693-02-3767,522-51-0270
+689509,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Scottie Valler,1947-106,661-52-8175,894-98-6848,438-05-8722
+692550,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Nessie Cottell,4613-118,288-22-0645,850-83-4555,743-67-2379
+692738,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Dorie Marikhin,6401-108,756-09-7219,526-03-5422,601-09-2279
+693148,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Idalina Schwanden,2911-118,233-92-9220,213-93-0122,784-09-2629
+693855,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Karen Dugue,1100-110,176-63-8754,176-63-8754,453-38-5622
+694332,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Harcourt Inott,4805-104,284-26-7916,303-94-6478,549-96-0554
+695509,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Rozalin Delatour,2423-122,111-12-2834,258-70-5396,791-55-5296
+697994,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Tabbie Rattry,3571-114,546-61-2251,891-68-1137,497-68-9505
+699121,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Vance Yendle,2939-100,856-13-9614,801-27-8471,415-09-0404
+699176,in_court,https://www.courts.wa.gov/court_rules/,guilty,Carolus Knill,0600-112,569-78-6620,224-34-6872,797-85-1248
+700120,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Eveline Furmonger,7922-124,597-95-0415,816-67-9264,158-58-4198
+701120,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Lucine Calley,3360-118,488-08-2600,488-08-2600,307-58-9859
+701329,in_court,https://www.courts.wa.gov/court_rules/,guilty,Kristina Pendlebery,2021-124,646-02-6477,792-55-1607,780-36-7956
+701414,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Adina Strutton,6401-112,129-75-5405,512-36-8280,479-78-6573
+701553,in_court,https://www.courts.wa.gov/court_rules/,guilty,Laura Essam,2939-104,258-21-1460,737-42-2809,394-78-9949
+701818,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Max Everal,8757-122,310-70-5486,310-70-5486,620-19-8789
+702106,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Georgianna Danslow,2423-116,763-09-1615,284-39-2398,173-77-6444
+702397,in_court,https://www.courts.wa.gov/court_rules/,guilty,Skyler Lacrouts,7692-120,463-94-3472,230-68-6805,832-17-4689
+703206,resolved,https://www.courts.wa.gov/court_rules/,guilty,Janice McConigal,7922-124,289-17-0347,194-07-2715,520-66-1111
+703347,in_court,https://www.courts.wa.gov/court_rules/,guilty,Conrad Cometson,7922-124,194-07-2715,121-10-6353,324-31-2685
+708561,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Betsey Serrels,4805-104,412-64-9829,507-84-3370,159-83-2149
+711057,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Randa Farr,1947-124,241-65-5732,586-19-1720,473-35-3605
+711693,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Laurella Rawkesby,4805-104,284-26-7916,698-48-7328,847-90-6201
+716073,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Franciskus Simakov,3704-104,832-36-1730,387-58-6249,778-81-8266
+718363,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Averyl Waskett,3704-104,166-24-5698,800-29-9360,778-94-0719
+722841,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Sapphire McKerton,6708-106,287-93-3797,649-09-6986,569-71-4989
+722895,in_court,https://www.courts.wa.gov/court_rules/,guilty,Heywood Speechley,3360-112,621-05-0258,669-62-8400,121-69-7746
+723780,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ali Jacobowits,0600-104,547-79-4994,739-18-5188,893-49-2684
+727451,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Milli Klees,1100-116,571-47-1263,218-70-2670,509-30-9120
+730304,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Zane Whichelow,7692-118,599-45-5344,181-77-5874,779-57-3904
+732739,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Edith Matyatin,9999-100,584-77-7213,738-40-3717,690-97-7105
+733042,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ravi Perfitt,8140-124,739-95-4284,166-66-0721,823-18-9768
+733364,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Allianora Huffadine,3571-102,861-41-8404,188-25-5404,451-73-1721
+733654,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Conan Westover,1100-110,176-63-8754,176-02-1483,508-60-2146
+734099,in_court,https://www.courts.wa.gov/court_rules/,guilty,Rolando Stanislaw,5785-122,416-18-5656,855-92-2872,866-46-2277
+734881,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Isabelita Peart,6708-106,882-25-8581,530-30-0774,134-41-5217
+734898,resolved,https://www.courts.wa.gov/court_rules/,guilty,Star Hanwell,7817-106,649-04-2975,571-07-4367,353-64-0296
+736211,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Linoel Habishaw,6401-110,187-28-4130,291-47-1944,658-74-5549
+736823,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Mamie Tointon,1100-116,139-50-9142,359-27-1435,453-53-6977
+736991,in_court,https://www.courts.wa.gov/court_rules/,guilty,Shannen Eccleston,4773-102,348-76-4984,437-71-4238,538-18-2638
+737410,in_court,https://www.courts.wa.gov/court_rules/,guilty,Bruno Milberry,4613-106,725-40-9247,192-59-7554,868-28-9152
+737615,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Shanna Ferrarello,1100-100,560-44-0058,681-74-9879,508-07-5683
+739152,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Neville Ternott,3704-104,789-30-7345,832-36-1730,522-86-3261
+740072,in_court,https://www.courts.wa.gov/court_rules/,guilty,Brit D'Onise,8140-122,577-73-3771,143-12-9031,310-56-5963
+740322,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Maximo Huriche,6401-110,838-01-0010,786-36-0678,450-01-8956
+742969,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Rowe Niesing,6708-122,147-25-5196,667-46-4297,882-60-5289
+745259,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Judith Palliser,0813-110,454-74-9267,287-83-1678,751-62-7730
+746293,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Coop Hawkins,2423-122,111-12-2834,111-12-2834,646-54-3317
+747448,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Annabel McColm,1100-100,168-42-4136,681-74-9879,452-51-3479
+748094,resolved,https://www.courts.wa.gov/court_rules/,guilty,Kristofer Pressnell,1568-108,448-28-9062,820-14-3519,526-41-6218
+748353,resolved,https://www.courts.wa.gov/court_rules/,guilty,Didi O'Nion,9999-100,738-40-3717,584-77-7213,466-13-1991
+749090,in_court,https://www.courts.wa.gov/court_rules/,guilty,Carlie Elecum,6401-104,590-90-9378,606-83-4450,489-81-5808
+750212,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Zaccaria Knight,1100-116,359-27-1435,335-63-1324,453-53-6977
+751935,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Priscilla Shevlin,3360-118,723-16-6450,805-22-4564,515-09-7955
+752162,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Cherin Dumberell,1100-104,515-35-4932,290-19-1965,401-28-5341
+754326,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Julee Laurentino,2939-108,788-67-1250,149-44-1921,411-15-7096
+754826,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Claribel D'eye,6708-120,393-73-3856,138-74-6218,803-59-9631
+755597,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Baird Blood,4268-124,705-80-7358,705-80-7358,500-41-7661
+755918,in_court,https://www.courts.wa.gov/court_rules/,guilty,Carly Brabin,2911-122,404-48-0300,404-48-0300,828-41-4669
+759510,in_court,https://www.courts.wa.gov/court_rules/,guilty,Sidonnie Birtley,4773-118,504-40-6876,879-06-2158,537-12-4761
+759709,resolved,https://www.courts.wa.gov/court_rules/,guilty,Lynette Scotford,6401-100,501-74-8750,597-59-4342,889-02-3506
+759792,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Brandon Kline,4773-118,719-51-6338,611-09-7782,148-41-9859
+759959,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Vaughn Brazil,4700-104,496-44-3158,830-30-9433,231-14-3431
+762417,resolved,https://www.courts.wa.gov/court_rules/,guilty,Libbey Spraging,0600-104,547-79-4994,739-18-5188,765-41-3405
+763497,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Jodi Betty,4700-104,548-75-5399,496-44-3158,853-14-1210
+763878,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Bert Tysack,6401-124,459-37-3701,825-86-9026,606-20-6012
+764575,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Glenna Shipsey,5785-104,593-99-3479,223-98-1089,636-62-0397
+765600,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Talyah Varran,2939-104,699-18-9855,737-42-2809,521-59-3048
+767478,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Bessie Yansons,8140-114,280-27-5377,669-41-0587,539-38-0685
+768199,in_court,https://www.courts.wa.gov/court_rules/,guilty,Leroy Assiratti,7692-118,604-30-9646,780-59-2672,830-70-8121
+769682,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Cthrine Stuchbury,5785-104,248-58-1172,829-06-0986,289-72-6352
+769816,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Adriana Imason,6374-102,523-12-5214,523-12-5214,304-20-9643
+770327,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Templeton Flobert,4268-106,477-26-3173,477-26-3173,885-35-7263
+770782,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Demetre De Brett,2911-122,404-48-0300,120-28-3545,768-32-9354
+771077,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Sax Knipe,1568-124,432-26-8411,700-42-6220,320-62-3984
+771942,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Boote Kiley,6708-116,436-87-5921,736-55-6485,882-52-7028
+772924,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Abra Fogg,2939-110,722-84-6376,722-84-6376,522-61-6698
+774447,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Stacey Eard,3571-122,619-23-3658,546-74-7217,536-36-9778
+774522,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Aidan Midghall,1568-100,232-51-9411,785-72-8669,543-45-9431
+774930,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Bellina Gerrie,2939-110,722-84-6376,548-26-4588,131-39-2255
+775565,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Sileas Neale,4613-118,288-22-0645,564-90-4413,119-41-7069
+776450,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Zarla Gabbitas,6708-122,573-95-8618,667-46-4297,118-49-1172
+780021,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ray Hatliffe,1100-100,168-42-4136,887-58-5875,508-07-5683
+780533,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ulysses Sendall,3085-100,283-98-8468,414-68-0779,678-37-2868
+781100,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Winnie Gilli,6708-122,356-37-7354,147-25-5196,799-26-7361
+784115,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Sydney Cantos,2911-114,387-25-1188,387-25-1188,784-87-2935
+785147,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Eula Issacof,8140-124,667-31-9496,505-65-0712,840-91-3483
+786908,in_court,https://www.courts.wa.gov/court_rules/,guilty,Faulkner Brealey,1568-100,728-59-5085,785-72-8669,818-16-5954
+786938,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Arden Hirsthouse,2911-106,372-52-7120,785-62-8259,706-58-5613
+786995,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Gwyneth Hovel,8140-114,619-18-9658,502-07-5870,254-04-6928
+787313,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Valina Pimmocke,8140-124,505-65-0712,742-85-9121,124-37-6400
+787982,in_court,https://www.courts.wa.gov/court_rules/,guilty,Rollins Mayman,4268-106,519-49-0274,477-26-3173,588-29-3002
+787993,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Valentia Stannis,4773-102,286-23-6296,737-74-9549,150-20-5274
+788618,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Melony Dericut,0813-110,454-74-9267,598-24-8401,683-59-5486
+789967,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ora Vigrass,4773-104,229-60-9810,551-96-0032,731-17-8521
+794583,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Colleen Giblin,2939-110,129-89-0414,129-89-0414,682-24-3925
+795061,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Flor Standring,2911-122,426-67-7034,404-48-0300,787-55-2760
+798876,in_court,https://www.courts.wa.gov/court_rules/,guilty,Tiena Ginger,5785-110,206-67-3369,485-36-2079,865-83-0710
+798951,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Dalia Jobbins,6401-124,714-30-6382,825-86-9026,451-18-2855
+800128,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Kate Lawlie,8140-100,616-98-3400,632-77-3104,208-77-6482
+800130,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Isobel Romme,4773-118,719-51-6338,611-09-7782,730-58-2568
+802788,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Raviv Durie,1100-110,393-60-2555,484-98-8951,651-65-7040
+803576,in_court,https://www.courts.wa.gov/court_rules/,guilty,Berton Scamadin,1947-112,127-98-6975,424-39-4576,379-35-5114
+804100,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Vida Leindecker,4268-106,885-41-5161,885-41-5161,326-64-0634
+805023,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Donovan Vany,4773-102,367-13-0639,737-74-9549,663-87-1907
+806018,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Ham Wash,8140-110,781-25-2194,788-77-5777,838-18-7638
+806467,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Kiersten Enticott,3360-118,476-57-0400,476-57-0400,769-47-5161
+806671,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Reuven Conibear,9999-100,470-42-6925,740-71-9401,657-80-6040
+807558,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Ann-marie Doerrling,0813-114,636-05-0567,489-03-0353,557-90-7467
+808654,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Melita Cowterd,0600-122,259-19-1686,569-06-3939,517-80-5445
+809030,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Gilburt Golledge,4805-104,412-64-9829,284-26-7916,222-23-7376
+809399,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Alyda Archbell,8140-110,781-25-2194,721-77-2831,820-22-8843
+809535,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Roosevelt Simister,8140-110,721-77-2831,201-58-3220,215-25-9766
+810053,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Aleda Bottleson,1568-108,163-73-4864,769-42-2396,341-05-6800
+812994,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Dorella Cappell,4613-106,192-59-7554,735-25-5363,561-19-5381
+813172,in_court,https://www.courts.wa.gov/court_rules/,guilty,Clare Cleaves,6401-114,671-02-5956,825-25-8759,490-49-4471
+814249,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Sydel Almeida,1489-100,761-32-6811,812-50-4919,545-90-3315
+815917,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Bobbee McGarrahan,8140-120,673-33-3136,891-02-4856,837-78-8261
+816613,resolved,https://www.courts.wa.gov/court_rules/,guilty,Ddene Tanner,3704-104,323-32-1018,323-32-1018,558-39-3190
+816964,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Marietta Shmyr,6401-110,838-01-0010,786-36-0678,844-34-3018
+818951,resolved,https://www.courts.wa.gov/court_rules/,guilty,Adiana Greenin,3571-122,619-23-3658,546-74-7217,499-45-7335
+819248,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Keslie Sneath,4805-104,698-48-7328,507-84-3370,549-96-0554
+819806,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Riane Holborn,1100-116,542-51-7064,542-51-7064,397-87-7538
+820091,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Farlay MacMaykin,2021-124,792-55-1607,646-02-6477,780-36-7956
+821312,in_court,https://www.courts.wa.gov/court_rules/,guilty,Lucas Heinl,6374-102,327-54-2736,523-12-5214,773-16-9463
+821385,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Frederic Knoton,2423-116,284-39-2398,763-09-1615,554-42-8897
+821941,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Janene Diss,5785-122,593-21-9391,462-24-2809,372-83-1020
+822509,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ellynn Landells,2423-124,134-35-3337,489-01-7995,719-40-7588
+823001,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Oliver Vaen,2939-102,379-25-6271,172-69-8751,521-01-2928
+823079,in_court,https://www.courts.wa.gov/court_rules/,guilty,Bradan Sackur,3360-112,437-03-4413,312-64-9500,558-49-2998
+824138,resolved,https://www.courts.wa.gov/court_rules/,guilty,Cornie Forde,4805-104,284-26-7916,303-94-6478,372-02-0798
+824319,resolved,https://www.courts.wa.gov/court_rules/,guilty,Tami Galliver,2939-110,548-26-4588,537-24-1002,443-19-6804
+824977,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Mignon Franzotto,2423-122,111-12-2834,111-12-2834,106-95-9828
+826079,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Gracia Spray,6708-122,147-25-5196,147-25-5196,571-39-7628
+827744,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Jacinda Ruscoe,2911-114,777-41-2922,656-51-2165,286-99-2451
+828389,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Porty Hatley,1947-124,241-65-5732,589-60-0085,524-31-1396
+829899,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Alf Boarleyson,6401-112,293-85-2516,856-81-7846,296-05-4870
+829984,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Lyndell Matzl,1489-110,162-52-4525,276-82-7275,753-62-6036
+830134,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ganny Ramalhete,1100-100,276-60-9397,168-42-4136,184-27-3835
+833707,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Carter Laxen,4613-118,392-97-5340,612-84-0564,298-37-0640
+834605,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Nari Mc Ilory,4700-104,496-44-3158,564-13-6541,314-97-9985
+835029,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Liuka Chinnock,3571-122,649-14-0909,732-68-0857,203-42-2448
+835435,in_court,https://www.courts.wa.gov/court_rules/,guilty,Therine Welling,1489-110,508-67-0117,711-90-9993,804-17-6919
+836283,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Shelbi Clipston,9999-100,252-48-0736,738-40-3717,572-05-3409
+836835,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Caria Matyushenko,2911-106,679-63-3737,857-30-6415,286-56-0399
+837330,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Hyacinthie Lambotin,1947-112,513-27-1794,508-06-8961,114-15-6294
+837347,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Jilly Windas,7692-106,271-53-6537,521-96-2669,578-91-1638
+838027,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Amitie Vowdon,6708-116,867-22-7460,867-22-7460,865-50-5396
+839011,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Jacintha Rehor,1100-110,393-60-2555,279-89-3498,508-60-2146
+840111,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ellyn Stranieri,2021-124,821-13-8845,176-76-2512,467-48-7617
+840535,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Cammy Perryn,2911-106,857-30-6415,679-63-3737,151-89-1526
+841011,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Anissa Eyer,0813-114,178-87-3458,347-98-5091,584-39-2228
+841794,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Norah Dorr,7817-106,236-99-0161,649-04-2975,353-64-0296
+843102,resolved,https://www.courts.wa.gov/court_rules/,guilty,Nora De Laspee,0600-110,391-17-3340,882-23-2908,894-15-9419
+843232,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Othelia Dunsmuir,6401-124,459-37-3701,886-06-2383,492-56-6062
+843539,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Konstance Scowcraft,1947-124,852-18-2405,852-18-2405,871-14-5218
+843765,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Hunfredo Hanrott,4773-102,270-50-0293,348-76-4984,816-05-1612
+846420,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Dallis Dome,4773-118,252-85-2441,399-69-2407,814-98-6336
+846783,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Vevay Spoor,8140-114,180-48-7881,280-27-5377,124-64-1252
+848400,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Rusty Palumbo,2911-118,387-27-8434,387-27-8434,227-04-9429
+849488,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Marcellina Turmell,1568-124,129-67-0193,700-42-6220,544-80-5577
+850197,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Anderson Mutlow,0600-110,432-30-5886,432-30-5886,795-33-2489
+851242,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Cynthy Mould,1947-112,140-22-5423,355-36-2361,379-35-5114
+851504,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Sal Aberdeen,1568-100,785-72-8669,253-94-4830,341-47-5222
+852216,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Rhianna Blincowe,2939-102,615-58-9774,615-58-9774,441-96-0357
+852719,in_court,https://www.courts.wa.gov/court_rules/,guilty,Meredith Willshire,8140-110,721-77-2831,201-58-3220,215-25-9766
+853273,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Risa Costain,8140-122,577-73-3771,184-17-1439,437-42-5035
+854430,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Keefe Snedden,7692-118,604-30-9646,181-77-5874,423-11-4219
+855747,resolved,https://www.courts.wa.gov/court_rules/,guilty,Farleigh Casacchia,0600-110,473-56-2674,882-23-2908,765-82-2753
+856710,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Phillipp Eckly,4805-108,597-92-7107,547-35-6331,846-86-6673
+859378,in_court,https://www.courts.wa.gov/court_rules/,guilty,Abra Van Der Hoog,0600-112,274-42-2902,138-97-1517,337-61-9402
+860780,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Dylan Thon,1489-124,740-96-7392,346-26-0082,611-98-7667
+864326,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Gill Canwell,4268-124,539-48-2897,861-61-9976,587-73-5486
+865182,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Hildegaard Kieff,6401-112,856-81-7846,856-81-7846,161-09-3624
+865302,in_court,https://www.courts.wa.gov/court_rules/,guilty,Elora Rigbye,1947-124,589-60-0085,834-99-3273,335-01-7637
+866292,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Vivienne Shadwick,7692-120,298-42-6325,499-22-1580,568-62-1150
+866844,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Crissie Vasiltsov,1489-100,124-06-6949,622-24-7567,857-68-7071
+867918,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Alie Voules,1489-100,763-47-7190,622-24-7567,753-73-8073
+869595,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Cole Jandak,2423-116,452-11-7128,531-27-9690,877-22-0787
+870025,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Abdul Watkiss,1568-108,183-23-2741,163-73-4864,860-72-7808
+871108,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Cad Segot,2939-100,801-27-8471,446-83-3410,680-27-4259
+871973,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Rod Neeves,6401-100,597-59-4342,435-94-4433,845-36-1518
+873390,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Dill Mycroft,6708-106,649-09-6986,530-30-0774,805-61-5864
+874296,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Farlay Argrave,2911-114,206-13-8461,387-25-1188,706-84-1520
+875189,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Hervey Snasdell,1947-124,586-19-1720,589-60-0085,439-16-1273
+877046,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Peterus Garrison,5785-104,188-70-4037,593-99-3479,460-27-4072
+877491,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Cathrine Ben,1568-124,168-48-7836,432-26-8411,104-86-3903
+879209,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Horatia Peyes,8140-122,143-12-9031,577-73-3771,366-76-3470
+879547,in_court,https://www.courts.wa.gov/court_rules/,guilty,Robby O'Hagerty,8140-110,721-77-2831,201-58-3220,713-46-1611
+879594,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Broddie Deighan,7692-120,626-83-2558,626-83-2558,581-29-5070
+880111,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Jennine Crosston,8140-110,781-25-2194,788-77-5777,218-18-9819
+880398,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Chilton Advani,6401-100,276-67-0571,781-10-6571,600-64-1055
+880677,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Jamesy Monsey,7922-124,194-07-2715,417-41-0144,492-71-3837
+880899,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Elysia Waghorn,0813-114,178-87-3458,663-88-8438,683-04-4200
+880993,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Fernande Lowings,1489-124,368-13-8919,755-42-9395,812-71-4992
+881033,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Tirrell Ikins,2423-108,728-36-9975,728-36-9975,610-39-3792
+882327,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Art Hinksen,2423-124,778-70-9848,240-39-4866,703-88-6375
+882652,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Jarred Keinrat,4268-124,685-85-0594,539-48-2897,887-09-8892
+882821,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Vladimir Tenaunt,4773-102,270-50-0293,348-76-4984,730-17-8957
+883050,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Stesha Zuanelli,4700-104,830-30-9433,104-61-6529,314-97-9985
+884138,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Gusta Grammer,2911-118,213-93-0122,381-97-9579,704-56-7134
+884406,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Everett Govinlock,1489-124,306-71-3493,286-08-6820,748-47-5984
+884563,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Chrystal Philippet,1489-124,755-42-9395,306-71-3493,857-59-3664
+885641,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Elvis Ick,0600-112,138-97-1517,595-36-5550,562-13-4509
+885696,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Virgil Larkings,1100-116,604-42-3360,537-19-5854,624-49-9692
+885706,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Elliott Fernez,2423-108,651-23-1790,754-42-0766,610-39-3792
+886335,in_court,https://www.courts.wa.gov/court_rules/,guilty,Sharyl Westlake,4805-108,764-56-6492,650-81-3497,421-51-0846
+886667,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Elias Persich,4700-104,564-13-6541,496-44-3158,314-97-9985
+886685,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Kennett Prator,7692-120,628-35-8432,626-83-2558,642-22-6066
+887922,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Rod Elington,8140-104,882-53-4895,869-93-4051,392-71-9774
+889204,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Bertie Stoves,2021-124,176-76-2512,792-55-1607,779-24-6918
+889461,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Barbee Aronoff,7692-118,599-45-5344,599-45-5344,695-82-8644
+890633,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Lian Esch,4613-118,392-97-5340,648-93-5262,298-91-1653
+890742,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Doris Gypson,0813-114,770-13-1354,711-85-2696,267-22-7808
+890889,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Roseanna Sam,0600-110,882-23-2908,391-17-3340,332-21-7771
+891290,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Alanah Shilito,3571-114,740-51-3147,680-86-9500,359-25-2825
+891515,in_court,https://www.courts.wa.gov/court_rules/,guilty,Manuel Rhead,8140-104,781-67-9372,869-93-4051,247-12-9025
+892307,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Andras Slatford,1100-110,816-70-5401,885-10-8254,388-82-9828
+892311,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Tris Dalli,7692-106,197-36-2154,197-36-2154,526-71-6884
+892440,in_court,https://www.courts.wa.gov/court_rules/,guilty,Jone Janew,5785-114,681-81-2305,671-99-5556,373-59-9690
+893418,resolved,https://www.courts.wa.gov/court_rules/,guilty,Roberta Jursch,6708-122,667-46-4297,332-17-6917,882-60-5289
+893621,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Stormy Dryden,6708-122,147-25-5196,147-25-5196,806-99-1952
+893773,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Wendell Ondrak,2423-122,111-12-2834,111-12-2834,178-40-2473
+894604,in_court,https://www.courts.wa.gov/court_rules/,guilty,Eleonora Cumine,7692-118,780-59-2672,780-59-2672,695-82-8644
+894665,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Kriste Akam,4805-108,764-56-6492,764-56-6492,221-81-1932
+895345,resolved,https://www.courts.wa.gov/court_rules/,guilty,Harald Rowe,2939-100,801-27-8471,886-56-7000,396-64-0067
+896639,resolved,https://www.courts.wa.gov/court_rules/,guilty,Rhoda Wash,2939-104,250-83-5541,699-18-9855,445-64-5214
+896886,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Carleton Knipe,5785-122,462-24-2809,416-18-5656,833-10-6870
+897748,resolved,https://www.courts.wa.gov/court_rules/,guilty,Ivette Ianitti,6374-102,327-54-2736,327-54-2736,578-48-5356
+899396,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Trey Risbrough,0813-110,287-83-1678,382-05-4321,747-31-8579
+901941,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Tymothy Stothart,2939-110,887-66-6020,887-66-6020,682-24-3925
+902308,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Georgiana Messum,4613-106,214-41-4846,734-33-6049,868-28-9152
+902425,resolved,https://www.courts.wa.gov/court_rules/,guilty,Dom Cobb,2939-110,537-24-1002,832-55-6623,348-72-6005
+902650,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Sharity Ivimy,1100-104,738-33-5317,872-17-9239,507-48-5204
+902881,in_court,https://www.courts.wa.gov/court_rules/,guilty,Ellen Clemont,1568-124,432-26-8411,168-48-7836,860-25-4968
+903445,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Christophorus Garahan,2939-100,324-29-1781,886-56-7000,132-49-1376
+903543,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Iver Eusden,7692-106,636-88-4987,742-13-0083,830-27-1975
+903901,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Elonore Kumaar,3571-122,398-03-2606,684-61-2022,592-81-7835
+904484,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Myles Pascho,8140-122,121-92-1607,879-83-9746,437-42-5035
+904673,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Tracey Veronique,2939-110,556-29-9446,556-29-9446,443-19-6804
+904932,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Dickie Meins,6708-120,886-97-5882,393-73-3856,428-27-0597
+905015,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Rafi Adrian,8140-120,333-04-0667,890-27-5563,311-20-5917
+905952,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Sorcha Strute,1947-112,508-06-8961,127-98-6975,176-52-9376
+906074,in_court,https://www.courts.wa.gov/court_rules/,guilty,Salomon Killingworth,2939-108,149-44-1921,116-05-2373,396-65-9199
+907404,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Padraic Bennough,0600-112,274-42-2902,595-36-5550,597-12-1857
+908255,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Sylas Pahl,7817-106,649-04-2975,649-04-2975,861-96-0815
+908437,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Tilda Hale,4613-118,850-83-4555,648-93-5262,326-68-1618
+908933,resolved,https://www.courts.wa.gov/court_rules/,guilty,Viviana Abbett,1100-104,738-33-5317,377-71-3976,388-70-1696
+909354,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Gretta Caltun,1947-112,127-98-6975,508-06-8961,773-68-9914
+909515,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Flossie Tallet,6401-104,436-33-1850,590-90-9378,843-47-7622
+910117,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Budd Lidell,0813-110,307-70-6151,529-91-5824,557-10-0169
+910149,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Othella Abrahamsson,3704-104,387-58-6249,800-29-9360,403-10-7636
+911862,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Millard Du Barry,2423-124,778-70-9848,881-63-9972,875-61-0295
+916038,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Lawton Tichner,8140-104,781-67-9372,882-53-4895,125-85-8796
+916204,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Pip Cotton,2021-124,646-02-6477,176-76-2512,742-42-2042
+916713,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Ulrika Temperley,2939-100,446-83-3410,712-06-2292,443-32-9331
+916726,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Natalya Twinn,1100-100,887-58-5875,348-28-4231,650-24-0226
+916966,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Reilly Scrafton,2021-124,176-76-2512,792-55-1607,367-98-8438
+917473,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Tadd Maxweell,6401-114,344-66-8763,825-25-8759,845-03-0141
+918378,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Pebrook Ferroli,4268-124,447-67-6459,861-61-9976,675-77-6673
+919049,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Bekki Longbottom,4773-118,504-40-6876,832-54-9261,537-12-4761
+919435,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Sam MacAree,8140-124,667-31-9496,166-66-0721,840-91-3483
+923165,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Daniele Guthrum,8140-110,201-58-3220,721-77-2831,541-56-9157
+925127,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Jobina Gonzales,5785-114,671-99-5556,681-81-2305,554-28-7056
+926673,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Deana Berndsen,2911-114,307-54-2627,149-29-8407,784-87-2935
+927406,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Cherry Pay,2939-110,129-89-0414,722-84-6376,312-69-0502
+927458,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Nanon Cottell,1100-110,885-10-8254,365-23-7360,624-71-0248
+927469,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Darcy Causton,1568-100,723-78-7511,723-78-7511,860-89-2355
+930749,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Janie Blundon,6401-124,232-96-9409,886-06-2383,283-74-5052
+930767,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Ozzy Dell Casa,6708-120,472-29-6570,886-97-5882,809-05-9247
+932860,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Camilla Barneveld,2939-100,801-27-8471,856-13-9614,522-51-0270
+933059,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Nari Rawcliffe,6401-100,501-74-8750,150-30-3099,449-41-2554
+933327,in_court,https://www.courts.wa.gov/court_rules/,guilty,Linet Andryunin,6374-102,172-21-9750,327-54-2736,488-13-1804
+934439,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Fax Cunnow,4613-118,564-90-4413,392-97-5340,561-11-9960
+935434,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Sasha Naerup,6401-100,150-30-3099,375-80-3968,165-97-2738
+935452,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Rudolph Chamberlin,1100-110,176-02-1483,816-70-5401,624-71-0248
+935730,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Vidovic Reinard,2939-100,801-27-8471,324-29-1781,628-78-0033
+935981,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Lind Hartigan,8757-122,529-73-5495,708-16-1255,118-56-2590
+936118,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Clarette Meneux,8140-104,544-78-8318,781-67-9372,724-72-8399
+936167,resolved,https://www.courts.wa.gov/court_rules/,guilty,Kingsly Groneway,8140-102,853-02-8496,798-69-9759,365-18-2562
+936734,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Kaye Hercock,1568-100,684-88-9724,253-94-4830,793-16-9643
+936955,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Moses Poacher,5785-110,334-46-8368,485-36-2079,219-17-9000
+936968,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Gearalt Ashcroft,4268-106,388-98-4676,841-01-7263,765-15-2167
+937459,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Margette Bazek,2423-116,284-39-2398,763-09-1615,791-67-6771
+937682,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Carlynne Bremley,1568-124,212-25-3602,212-25-3602,544-80-5577
+940350,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Deane Gatman,5785-114,346-63-1828,681-81-2305,866-29-4953
+940866,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Merilyn Dowsey,7692-120,463-94-3472,628-35-8432,568-62-1150
+941178,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Brittaney Banaszczyk,8757-112,607-33-8140,607-33-8140,610-67-0140
+941869,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Magnum Pargeter,2939-104,737-42-2809,709-44-1544,131-29-2897
+941928,resolved,https://www.courts.wa.gov/court_rules/,guilty,Ferdinand Hadgraft,8140-100,102-51-9499,283-73-0943,539-43-7396
+943616,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Janeen Culp,0813-110,454-74-9267,307-70-6151,557-10-0169
+944525,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Fionna Jorden,2939-110,722-84-6376,722-84-6376,629-58-9343
+944825,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Brittni Haith,0813-110,154-07-9921,154-07-9921,586-26-5649
+945912,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Lela Cattemull,2423-108,254-92-4227,543-58-4638,173-50-4821
+946070,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Kirbie Del Castello,8140-122,121-92-1607,121-92-1607,241-83-7732
+946403,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Dorelia Seide,4613-106,144-49-6336,725-40-9247,868-28-9152
+946515,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Rollo Snelgar,6401-100,150-30-3099,375-80-3968,660-04-9295
+946958,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Austina Fryers,6401-100,150-30-3099,312-19-1735,449-41-2554
+947009,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Betta Sheerin,8140-102,217-32-5035,818-77-8533,432-80-9733
+948502,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Vivia Ashtonhurst,8757-112,261-18-2166,607-33-8140,618-90-8347
+948580,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Eldredge Brenard,1100-110,481-76-2247,484-98-8951,651-65-7040
+951679,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Marven Backen,4773-104,551-96-0032,551-96-0032,731-17-8521
+953990,in_court,https://www.courts.wa.gov/court_rules/,guilty,Crista McGavin,6374-102,327-54-2736,172-21-9750,816-49-0291
+954860,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Carolin Krolak,0600-112,595-36-5550,569-78-6620,766-55-6511
+957015,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Freemon Purselowe,0813-114,489-03-0353,631-32-6477,752-09-4321
+960154,in_court,https://www.courts.wa.gov/court_rules/,guilty,Eula Celez,8140-124,140-86-5145,140-86-5145,240-10-8370
+960976,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Mattheus Wyllt,2939-110,820-05-8945,548-26-4588,443-19-6804
+961362,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Johnny Abbison,4613-118,392-97-5340,392-97-5340,866-61-2854
+961918,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Ajay Grishukhin,2021-124,792-55-1607,646-02-6477,467-48-7617
+962542,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Erhart Spadoni,1947-112,424-39-4576,701-19-8712,773-68-9914
+962751,resolved,https://www.courts.wa.gov/court_rules/,guilty,Angelika Murfin,2021-124,792-55-1607,176-76-2512,373-68-1287
+962781,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Kaylyn Rogeron,6401-104,402-47-8834,769-02-7224,660-77-5953
+965294,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Orland Bonwell,3571-102,188-25-5404,474-15-6152,357-98-4586
+965295,in_court,https://www.courts.wa.gov/court_rules/,guilty,Silvester Varvara,7692-106,197-36-2154,521-96-2669,684-85-7206
+965844,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Bancroft Folliott,4613-106,144-49-6336,214-41-4846,707-55-1650
+965979,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Myrtie Medd,5785-122,855-92-2872,444-09-0062,419-03-7773
+966942,in_court,https://www.courts.wa.gov/court_rules/,guilty,Annette Jenkyn,1100-110,513-50-6056,481-76-2247,453-38-5622
+968472,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Melissa Heinz,1489-124,368-13-8919,368-13-8919,531-21-1392
+969173,in_court,https://www.courts.wa.gov/court_rules/,guilty,Merrilee Drew-Clifton,2911-106,857-30-6415,857-30-6415,783-86-1880
+970507,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Jeri MacDiarmid,6374-102,523-12-5214,327-54-2736,772-83-3329
+976478,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Ann-marie Towell,8140-104,869-93-4051,882-53-4895,717-16-4991
+976583,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Pincus Smalecombe,3360-106,531-28-3522,276-91-5763,307-52-0398
+976790,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Margit Stanfield,6708-122,147-25-5196,332-17-6917,571-39-7628
+977126,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Octavius Rubartelli,4805-108,202-06-2837,727-41-2052,549-70-2421
+978815,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Theo Nulty,1100-104,710-23-9657,827-01-0136,620-70-5168
+980686,in_court,https://www.courts.wa.gov/court_rules/,guilty,Aguste Nibley,3571-114,740-51-3147,891-68-1137,274-93-1504
+981975,resolved,https://www.courts.wa.gov/court_rules/,guilty,Gertie Brannon,2423-124,489-01-7995,852-49-1213,792-03-2752
+982874,resolved,https://www.courts.wa.gov/court_rules/,not guilty,Tore Keepin,6401-100,435-94-4433,427-38-2608,165-97-2738
+983862,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Towney Waddicor,8140-102,135-16-6640,135-16-6640,713-20-5850
+984703,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Karoline Rosenfarb,6708-116,525-18-0199,867-22-7460,865-50-5396
+986535,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Georgine Heak,7922-124,357-51-8624,258-69-7111,517-55-0857
+986759,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Flint Windrum,3360-106,267-78-7221,400-37-3845,772-22-8956
+988272,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Sapphire Loughney,6401-100,375-80-3968,597-59-4342,289-82-9068
+989637,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Merry Pegden,0813-106,567-16-4962,821-45-0681,747-27-7927
+990705,in_court,https://www.courts.wa.gov/court_rules/,guilty,Hirsch Shepeard,0813-106,821-45-0681,821-45-0681,557-44-3432
+990966,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Jaquith Canet,6401-110,786-36-0678,291-47-1944,891-92-9448
+992618,in_progress,https://www.courts.wa.gov/court_rules/,guilty,Halli Craddock,5785-104,248-58-1172,893-88-4777,689-61-5613
+993156,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,Tasha Jancey,6374-102,523-12-5214,172-21-9750,639-40-1982
+993287,in_progress,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Mahalia Eales,8140-114,619-18-9658,730-48-7842,727-98-4500
+994176,resolved,https://kingcounty.gov/courts/clerk/rules.aspx,guilty,Pepillo Fawson,2423-108,754-42-0766,754-42-0766,877-85-2016
+995115,resolved,https://www.courts.wa.gov/court_rules/,guilty,Maddy Teliga,1100-110,365-23-7360,513-50-6056,186-49-1271
+995297,in_court,https://www.courts.wa.gov/court_rules/,not guilty,Calhoun Fandrey,0813-114,711-85-2696,711-85-2696,747-61-8994
+996115,in_progress,https://www.courts.wa.gov/court_rules/,not guilty,La verne Balme,9999-100,470-42-6925,740-71-9401,503-36-2978
+997954,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Wainwright Rule,0813-110,598-24-8401,529-91-5824,268-01-2798
+998462,in_court,https://kingcounty.gov/courts/clerk/rules.aspx,not guilty,Kimbra Samwayes,4700-104,104-61-6529,788-21-9575,493-12-2997
