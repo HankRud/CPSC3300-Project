@@ -18,7 +18,7 @@ Create Table Firm(
     firm_street VARCHAR(100),
     firm_city VARCHAR(20),
     firm_state VARCHAR(20),
-    firm_zip int(5),
+    firm_zip CHAR(5),
     firm_phone CHAR(10),
     Primary key (firm_id)
 ) ;   
@@ -27,10 +27,15 @@ CREATE Table Department(
 	firm_id CHAR(11),
     dept_num CHAR(3), 
     dept_name VARCHAR(50),
-	primary key (dept_num, firm_id),
+	primary key (dept_num,firm_id),
 	foreign key (firm_id) 
 		references Firm (firm_id)
+        
 );
+
+
+
+
 
 CREATE Table Firm_Client(
 	client_ssn  CHAR(11),
@@ -39,8 +44,8 @@ CREATE Table Firm_Client(
     client_city VARCHAR(50),
 	client_zip int(5),
     client_state VARCHAR(50),
-    client_phone CHAR(10),
     client_dob DATE,
+    client_phone CHAR(10),
     firm_id CHAR(11),
     dept_num CHAR(3),
     primary key (client_ssn),

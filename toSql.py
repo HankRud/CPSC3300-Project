@@ -20,20 +20,21 @@ try:
         cursor = conn.cursor()
 
 
+       
         for x, row in firm_data.iterrows():
             sql = "INSERT INTO bw_db36.Firm VALUES (%s,%s,%s,%s,%s,%s,%s)"
             cursor.execute(sql,tuple(row))
             conn.commit()
        
         for dep, row in departments_data.iterrows():
-            sql2 = "INSERT INTO bw_db36.Department VALUES(%s,%s,%s)"
+           sql2 = "INSERT INTO bw_db36.Department VALUES(%s,%s,%s)"
+           cursor.execute(sql2,tuple(row))
+           conn.commit()
+
+        for y, row in client_data.iterrows():
+            sql2 = "INSERT INTO bw_db36.Firm_Client VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
             cursor.execute(sql2,tuple(row))
             conn.commit()
-
-       # for y, row in client_data.iterrows():
-        #    sql2 = "INSERT INTO bw_db36.Firm_Client VALUES(%s,%s,%s,%s,%s,%s,%s,%s)"
-         #   cursor.execute(sql2,tuple(row))
-          #  conn.commit()
 
 except Error as e:
     print("Connection error", e)
