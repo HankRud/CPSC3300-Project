@@ -7,6 +7,7 @@ drop table if exists Leads;
 drop table if exists Task;
 drop table if exists ClientCase;
 drop table if exists Employee;
+drop table if exists Temp_Client;
 drop table if exists Firm_Client;
 drop table if exists Department;
 drop table if exists Firm;
@@ -34,13 +35,27 @@ CREATE Table Department(
 );
 
 
-
+CREATE Table Temp_Client(
+	client_ssn  CHAR(11),
+    client_name VARCHAR(50) not null,
+    client_street VARCHAR(50),
+    client_city VARCHAR(50),
+	client_zip int(5),
+    client_state VARCHAR(50),
+    client_dob DATE,
+    client_phone CHAR(10),
+    firm_id CHAR(11),
+    primary key (client_ssn),
+	foreign key (firm_id) 
+		references Firm (firm_id)
+	
+);
 
 
 CREATE Table Firm_Client(
 	client_ssn  CHAR(11),
     client_name VARCHAR(50) not null,
-    client_street VARCHAR(50),
+    client_street VARCHAR(100),
     client_city VARCHAR(50),
 	client_zip int(5),
     client_state VARCHAR(50),
@@ -59,7 +74,7 @@ CREATE Table Employee(
 	emp_ssn  CHAR(11),
     emp_name VARCHAR(50) not null,
     emp_phone CHAR(10),
-    emp_street VARCHAR(20),
+    emp_street VARCHAR(100),
     emp_city VARCHAR(20),
     emp_state VARCHAR(20),
     emp_zip int(5),
