@@ -63,10 +63,10 @@ try:
           #  cursor.execute(sql,tuple(row))
            # conn.commit()         
 
-        #for c, row in attny.iterrows():
-         #   sql = "INSERT INTO bw_db36.Attorney_Case_Work VALUES(%s,%s,%s)"
-          #  cursor.execute(sql,tuple(row))
-           # conn.commit()        
+        for c, row in attny.iterrows():
+           sql = "INSERT INTO bw_db36.Attorney_Case_Work VALUES(%s,%s,%s)"
+           cursor.execute(sql,tuple(row))
+           conn.commit()        
         
 
 
