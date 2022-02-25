@@ -51,15 +51,71 @@ limit 5;
 
 #inserts a new firm 
 INSERT INTO Firm
-VALUES (23-673-7754,'Brandybuck, Baggins, Gamgee' ,'5 Bagshot Row','Hobbiton','The Shire',98298,9384618378);
+VALUES ('23-673-7754','Brandybuck, Baggins, Gamgee' ,'5 Bagshot Row','Hobbiton','The Shire',98298,9384618378);
 
+
+#insert into department 
 INSERT INTO Department
 VALUES 
-(23-673-7754,7754-100,'Bankruptcy'),
-(23-673-7754,7754-104,'Environmental'),
-(23-673-7754,7754-114,'Real Estate'),
-(23-673-7754,7754-122,'Corporate'),
-(23-673-7754,7754-102,'Real Estate'),
-(23-673-7754,7754-110,'Personal Injury'),
-(23-673-7754,7754-104,'Bankruptcy'),
-(23-673-7754,7754-112,'Elder');
+('23-673-7754','7754-100','Bankruptcy'),
+('23-673-7754','7754-114','Real Estate'),
+('23-673-7754','7754-122','Corporate'),
+('23-673-7754','7754-102','Real Estate'),
+('23-673-7754','7754-110','Personal Injury'),
+('23-673-7754','7754-112','Elder');
+
+#delete tuple
+DELETE FROM Department
+Where  dept_num = '7754-100';
+
+
+##create view
+ CREATE VIEW ParalegalView AS 
+ Select D.firm_id, D.dept_name, E.emp_name, E.emp_ssn, E.emp_dob
+ From Department D, Employee E
+ Where D.dept_num = E.dept_num AND emp_role = 'Paralegal';
+
+#get paralegals whose birthday is after Jan 1 1980
+Select *
+From ParalegalView
+Where emp_dob > '1980-01-01'
+limit 5;
+
+#insert a value into Employee
+INSERT INTO Employee
+VALUES ('459-91-8426','Fredegar Bolger' ,4325433865, '2 Crickhollow Lane','Buckland','The Shire',34452,'1945/01/23','Paralegal','7754-112');
+     
+
+#Select from paralegal view
+Select *
+From ParalegalView
+where emp_ssn = '459-91-8426';
+
+     
+     
+Select *
+From Employee
+where emp_ssn = '459-91-8426';
+
+
+mysql> delimiter //
+ CREATE TRIGGER ensure_dob
+	BEFORE INSERT ON Employee
+    For each row 
+    BEGIN
+		IF NEW.emp_dob > '2004-02-20' THEN
+		   SET NEW.emp_dob = '2004-02-20';
+		END IF;
+    
+    END; //
+mysql> delimiter ;
+    
+    
+#insert a value into Employee
+INSERT INTO Employee
+VALUES ('419-21-4443','Samwise Gamgee' ,4325433335, '2 Crickhollow Lane','Buckland','The Shire',34452,'2009/01/03','Paralegal','7754-112');
+
+Select *
+From Employee
+where emp_ssn = '419-21-4443';
+
