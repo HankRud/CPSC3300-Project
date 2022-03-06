@@ -20,7 +20,7 @@ if (!$conn) {
      exit;
 }
 // change to your default db for PDA6!!!
-$dbname = "bw_36";
+$dbname = "db_bw36";
 $db = mysql_select_db($dbname, $conn);
 if (!$db) {
     print "Error - Could not select the firm database ".$dbname;
