@@ -86,7 +86,7 @@ print "</table>";
 mysql_close($conn);
 ?>
 
-    <!-- This is our delete tuple-->
+    <!-- Find Department in a firm -->
     <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/list_department.php" method="post">
         <input type="text" name="firm_id"/> 
         <label for="Firm ID">Task ID </label> <br />

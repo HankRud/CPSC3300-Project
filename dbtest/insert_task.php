@@ -5,7 +5,7 @@
      <html>
 <head>
 <title> Access the cars database with MySQL </title>
-<link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">" />
+<link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
 </head>
 <body>
 <?php
