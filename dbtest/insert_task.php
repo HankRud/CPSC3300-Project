@@ -3,27 +3,118 @@
      through MySQL
      -->
      <html>
+
 <head>
-<title> Access the cars database with MySQL </title>
-<link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
+    <title> Access the cars database with MySQL </title>
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
 </head>
+
 <body>
-<?php
+    <?php
 
-// Connect to MySQL
+    // Connect to MySQL
 
-$servername = "cs100.seattleu.edu";
-$username = "user36";
-$password = "1234abcdF!";
+    $servername = "cs100.seattleu.edu";
+    $username = "user36";
+    $password = "1234abcdF!";
 
-$conn = mysql_connect($servername, $username, $password);
+    $conn = mysql_connect($servername, $username, $password);
 
-if (!$conn) {
-     print "Error - Could not connect to MySQL ".$conn;
-     exit;
-}
+    if (!$conn) {
+        print "Error - Could not connect to MySQL " . $conn;
+        exit;
+    }
 
-// change to your default db for PDA6!!!
-$dbname = "bw_db36";
+    // change to your default db for PDA6!!!
+    $dbname = "bw_db36";
 
-$db = mysql_select_db($dbname, $conn);
+    $db = mysql_select_db($dbname, $conn);
+    if (!$db) {
+        print "Error - Could not select the sailor database " . $dbname;
+        exit;
+    }
+
+    $task_id = $_POST['task_id'];
+    $task_description = $_POST['task_description'];
+    $case_id = $_POST['case_id'];
+
+    // testing purpose (remove it after you complete testing!!!)
+    print "task_id: " . $task_id . "<br />";
+    print "task_description attr: " . $task_description . "<br />";
+    print "case_id: " . $case_id . "<br />";
+
+    // Clean up the given query (delete leading and trailing whitespace)
+    trim($task_id);
+    trim($task_description);
+    trim($case_id);
+
+    // remove the extra slashes
+    $task_id = stripslashes($task_id);
+    $task_description = stripslashes($task_description);
+    $case_id = stripslashes($case_id);
+
+    $query = 'INSERT INTO Task VALUES(' . $task_id . ',' . $task_description . ',' . $case_id . ');';
+
+    // Testing (remove it when testing is done!!!)
+    print "<p>Query: " . $query . "</p>";
+
+    // Execute the query
+    $result = mysql_query($query);
+    if (!$result) {
+        print "Error - the query could not be executed";
+        $error = mysql_error();
+        print "<p>" . $error . "</p>";
+        exit;
+    }
+
+    // Get the number of rows in the result
+    $num_rows = mysql_num_rows($result);
+
+    print "Number of rows = $num_rows <br />";
+
+    // Get the number of fields in the rows
+    $num_fields = mysql_num_fields($result);
+    print "Number of fields = $num_fields <br />";
+
+    // Get the first row
+    $row = mysql_fetch_array($result);
+
+    // Display the results in a task_id
+    print "<task_id border='border'><caption> <h2> Query Results </h2> </caption>";
+    print "<tr align = 'center'>";
+
+    // Produce the column labels
+    $keys = array_keys($row);
+    for ($index = 0; $index < $num_fields; $index++)
+        print "<th>" . $keys[2 * $index + 1] . "</th>";
+
+    print "</tr>";
+
+    // Output the case_idues of the fields in the rows
+    for ($row_num = 0; $row_num < $num_rows; $row_num++) {
+
+        print "<tr align = 'center'>";
+        $case_idues = array_case_idues($row);
+
+        for ($index = 0; $index < $num_fields; $index++) {
+            $case_idue = htmlspecialchars($case_idues[2 * $index + 1]);
+            print "<td>" . $case_idue . "</td> ";
+        }
+
+        print "</tr>";
+        $row = mysql_fetch_array($result);
+    }
+
+    print "</task_id>";
+
+    mysql_close($conn);
+    ?>
+
+    $result
+
+    <br /><br />
+    <a href="http://css1.seattleu.edu/~rudolph2/dbtest/db.html"> Go to Main Page </a>
+
+</body>
+
+</html>
