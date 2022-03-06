@@ -2,7 +2,7 @@
      A PHP script to access the sailor database
      through MySQL
      -->
-     <html>
+<html>
 
 <head>
     <title> Access the cars database with MySQL </title>
@@ -30,32 +30,25 @@
 
     $db = mysql_select_db($dbname, $conn);
     if (!$db) {
-        print "Error - Could not select the sailor database " . $dbname;
+        print "Error - Could not select database " . $dbname;
         exit;
     }
 
-    $table = $_POST['table'];
-    
 
-    // testing purpose (remove it after you complete testing!!!)
-    print "Table: " . $table . "<br />";
 
-    // Clean up the given query (delete leading and trailing whitespace)
-    trim($table);
-   =
-
-    // remove the extra slashes
-    $table = stripslashes($table);
-    
 
     $query = 'SELECT case_id, mycount
-    FROM (SELECT case_id,COUNT(task_id) mycount
-    FROM' .$table.
-    'GROUP BY case_id
-    HAVING mycount >1 )AS T;';
+    FROM (SELECT T.case_id,COUNT(T.task_id) mycount
+    FROM Task T
+    GROUP BY T.case_id
+    HAVING mycount In(Select MAX(maxcount) 
+                        From (Select TS.case_id, Count(TS.task_id) maxcount
+                            From Task TS
+                            Group by TS.case_id )AS N) )AS X
+    ;';
 
-    // Testing (remove it when testing is done!!!)
-    print "<p>Query: " . $query . "</p>";
+
+   
 
     // Execute the query
     $result = mysql_query($query);
@@ -109,7 +102,7 @@
     mysql_close($conn);
     ?>
 
-    $result
+  
 
     <br /><br />
     <a href="http://css1.seattleu.edu/~rudolph2/dbtest/db.html"> Go to Main Page </a>
