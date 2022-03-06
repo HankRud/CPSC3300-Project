@@ -2,13 +2,15 @@
      A PHP script to access the sailor database
      through MySQL
      -->
-     <html>
+<html>
+
 <head>
-<title> LIST THE FIRMS </title>
-<link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">" />
+    <title> LIST THE FIRMS </title>
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
 </head>
+
 <body>
-<?php
+    <?php
 
 // Connect to MySQL
 $servername = "cs100.seattleu.edu";
@@ -74,7 +76,7 @@ for ($row_num = 0; $row_num < $num_rows; $row_num++) {
         $value = htmlspecialchars($values[2 * $index + 1]);
         print "<td>" . $value . "</td> ";
     }
-
+    
     print "</tr>";
     $row = mysql_fetch_array($result);
 }
@@ -84,8 +86,17 @@ print "</table>";
 mysql_close($conn);
 ?>
 
-<br /><br />
-<a href="http://css1.seattleu.edu/~rudolph2/dbtest/db.html"> Go to Main Page </a>
+    <!-- This is our delete tuple-->
+    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/list_department.php" method="post">
+        <input type="text" name="firm_id"/> 
+        <label for="Firm ID">Task ID </label> <br />
+        <input type="submit" value="Find Departments" />
+    </form>
+    <br />
+
+    <br /><br />
+    <a href="http://css1.seattleu.edu/~rudolph2/dbtest/db.html"> Go to Main Page </a>
 
 </body>
+
 </html>

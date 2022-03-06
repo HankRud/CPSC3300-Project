@@ -2,7 +2,7 @@
      A PHP script to access the sailor database
      through MySQL
      -->
-<html>
+     <html>
 
 <head>
     <title> Access the cars database with MySQL </title>
@@ -34,26 +34,18 @@
         exit;
     }
 
-    $table = $_POST['table'];
-    $pk = $_POST['pk'];
-    $val = $_POST['val'];
+    $firm_id = $_POST['firm_id'];
 
     // testing purpose (remove it after you complete testing!!!)
-    print "Table: " . $table . "<br />";
-    print "PK attr: " . $pk . "<br />";
-    print "PK value: " . $val . "<br />";
+    print "Firm ID: " . $firm_id . "<br />";
 
     // Clean up the given query (delete leading and trailing whitespace)
-    trim($table);
-    trim($pk);
-    trim($val);
+    trim($firm_id);
 
     // remove the extra slashes
-    $table = stripslashes($table);
-    $pk = stripslashes($pk);
-    $val = stripslashes($val);
+    $firm_id = stripslashes($firm_id);
 
-    $query = 'select * from ' . $table . ' where ' . $pk . '=' . $val . ';';
+    $query = 'SELECT * FROM Department where firm_id =' . $firm_id . ';';
 
     // Testing (remove it when testing is done!!!)
     print "<p>Query: " . $query . "</p>";
