@@ -24,8 +24,7 @@ Select E.emp_ssn, E.emp_name
 From Employee E
 where E.emp_ssn IN (Select C.litigating_attny
 					From ClientCase C
-                    where matter_description Like '%coffee%')
-limit 5;
+                    where matter_description Like '%coffee%');
 
 #Corrleated nested query to find lawyers,  who have worked less than 
 # the average number of hours for lawyer work  on a single case

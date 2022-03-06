@@ -4,46 +4,69 @@
      the given query and display the results
     -->
 <html>
-<head><title> Access to the movie database </title>
-<link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">" />
+
+<head>
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
 </head>
+
 <body>
-<p>
-These are examples for user interface
-<br />
+    <p>
+        This is the UI for our project
+        <br />
+    </p>
+    
+    
+    <p>This Will Create A List of Firms and Allow you to Find your Department</p>
+    <!-- This is our table lists-->
+    <form name="f1" action="http://css1.seattleu.edu/~rudolph2/dbtest/list_firms_and_dept.php" method="post">
+        <input type="submit" value="Find Firm & Department" />
+    </form>
+    <br /> 
 
-<p> Provide a table name, key attribute and key value for search (sailors or boats) </p> 
 
-<!-- You should replace the URL to PHP script in action with yours -->
-<form name = "f1" action = "http://css1.seattleu.edu/~rudolph2/dbtest/db1.php" method = "post">  
-    Table: <input type = "text" name = "table" /> <br />
-    Key: <input type = "text" name = "pk" /> <br />
-    Value: <input type = "text" name = "val" /> <br />
-    <input type = "reset"  value = "Reset" />
-    <input type = "submit"  value = "Submit request" />
-</form>    
+    <p> Get case tasks based on case status </p>
+    <!-- This is our aggregtate query -->
+    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/list_tasks.php" method="post">
+        <input type="text" id="case_id" name="case_id"><br>
+        
+        <input type="radio" id="in_progress" name="stateofcase" value="in_progress">
+        <label for="in_progress">In Progress</label><br>
 
-<br />
-<p> Select a color for boats </p>
+        <input type="radio" id="in_court" name="stateofcase" value="in_court">
+        <label for="in_court">In Court</label><br>
+        
+        <br />
 
-<!-- You should replace the URL to PHP script in action with yours -->
-<form name = "f2" action = "http://css1.seattleu.edu/~rudolph2/dbtest/db2.php" method = "post">  
-    <input type = "checkbox" name = "color" value = "red"> Red <br />
-    <input type = "reset"  value = "Reset" /> 
-    <input type = "submit"  value = "Submit request" /> 
-</form>   
+        <input type="submit" value="Submit request" />
+    </form>
+    <br />
 
-<br />
-<p> Please write a query (This is a testing purpose. Do not use this functionality for PDA6) </p>
 
-<!-- You should replace the URL to PHP script in action with yours -->
-<form name = "f3" action = "http://css1.seattleu.edu/~rudolph2/dbtest/db3.php" method = "post">
-	<textarea rows = "5" cols = "40" name = "query"></textarea>
-	<br />
-	<input type ="reset" value = "Reset" />
-	<input type = "submit" value = "Submit request" /> 
-</form>
+    <p>Complete a task/ delete from the task table given a task id</p>
+    <!-- This is our delete tuple-->
+    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/complete_task.php" method="post">
+        <input type="text" name="Task ID"/> 
+        <label for="Task ID">Task ID </label> <br />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit request" />
+    </form>
+    <br />
+
+
+    <p>Insert a task</p>
+    <!-- This is our Inert Tuple -->
+    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/insert_task.php" method="post">
+        <input type="text" name = "Task ID"/>
+        <lable for = "Task ID">Task ID <br />
+        <input type="text" name = "Task Description"/>
+        <label for="Task Description">Task Description</label><br />
+        <input type="text" name = "Case Id"/>
+        <label for="Case Id">Case Id</label><br />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit request" />
+    </form>
+    <br /> 
 
 </body>
-</html>
 
+</html>
