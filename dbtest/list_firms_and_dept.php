@@ -87,9 +87,10 @@ mysql_close($conn);
 ?>
 
     <!-- Find Department in a firm -->
+    Find Depratments for Firm:
     <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/list_departments.php" method="post">
         <input type="text" name="firm_id"/> 
-        <label for="Firm ID">Task ID </label> <br />
+        <label for="Firm ID">Firm ID </label> <br />
         <input type="submit" value="Find Departments" />
     </form>
     <br />
