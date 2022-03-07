@@ -2,7 +2,7 @@
      A PHP script to access the sailor database
      through MySQL
      -->
-     <html>
+<html>
 
 <head>
     <title> Access the cars database with MySQL </title>
@@ -54,7 +54,7 @@
     $case_id = stripslashes($case_id);
 
     $query = 'INSERT INTO Task VALUES(' . $task_id . ',"' . $task_description . '",' . $case_id . ');';
-    $query2 = 'SELECT * FROM Task where task_id =' .$task_id. ';';
+    $query2 = 'SELECT * FROM Task where task_id =' . $task_id . ';';
 
     // Testing (remove it when testing is done!!!)
     print "<p>Query: " . $query . "</p>";
@@ -119,7 +119,7 @@
     mysql_close($conn);
     ?>
 
-   
+
 
     <br /><br />
     <a href="http://css1.seattleu.edu/~rudolph2/dbtest/db.html"> Go to Main Page </a>
