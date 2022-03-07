@@ -13,41 +13,45 @@
     <?php
 
     // Connect to MySQL
-
     $servername = "cs100.seattleu.edu";
     $username = "user36";
     $password = "1234abcdF!";
-
     $conn = mysql_connect($servername, $username, $password);
-
     if (!$conn) {
         print "Error - Could not connect to MySQL " . $servername;
         exit;
     }
-
     // change to your default db
     $dbname = "bw_db36";
-
     $db = mysql_select_db($dbname, $conn);
     if (!$db) {
         print "Error - Could not select the sailor database " . $dbname;
         exit;
     }
-    $dept_id = $_POST[department_id] 
-    
-    $query = 'SELECT * FROM Department where firm_id =' . $firm_id . ';';
+
+    // Get Firm ID and Department ID from _POST
+    $firm_id = $_POST['firm_id']; 
+    $dept_id = $_POST['dept_id']; 
 
     // Clean up the given query (delete leading and trailing whitespace)
-    trim($query);
-
+    trim($firm_id);
+    trim($dept_id);
     // remove the extra slashes
-    $query = stripslashes($query);
-
+    $firm_id = stripslashes($firm_id);
+    $dept_id = stripslashes($dept_id);
     // handle HTML special characters
-    $query_html = htmlspecialchars($query);
+    $firm_id_html = htmlspecialchars($firm_id);
+    print "<p>Firm ID: " . $firm_id_html . "</p>";
+    $dept_id_html = htmlspecialchars($dept_id);
+    print "<p>Department ID: " . $dept_id_html . "</p>";
 
-    print "<p>Query: " . $query_html . "</p>";
 
+    $query = 'SELECT FC.firm_id,FC.client_name,FC.client_phone,CC.stateofcase,CC.ruling,CC.matter_description
+              FROM Firm_Client FC
+              JOIN ClientCase CC ON CC.client_ssn = FC.client_ssn
+              Where FC.firm_id = "'.$firm_id.'" AND FC.dept_num = "'.$dept_id.'";';
+
+    
     // Execute the query
     $result = mysql_query($query);
     if (!$result) {
