@@ -8,7 +8,7 @@
     <title> Complete/Remove task </title>
     <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
 </head>
-
+<center>
 <body>
     <?php
 
@@ -70,5 +70,5 @@
     <a href="http://css1.seattleu.edu/~rudolph2/dbtest/db.html"> Go to Main Page </a>
 
 </body>
-
+</center>
 </html>

@@ -6,29 +6,34 @@
 <html>
     
 
+
 <head>
     <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
+
 </head>
 
-
 <body>
-    <p>
+    
+    <p style = 'text-align: center;'></pstyle>
         This is the UI for our project
         <br />
+        
     </p>
     
     
-    <p>This Will Create A List of Firms and Allow you to Find your Department</p>
+    <p style = 'text-align: center;'> This Will Create A List of Firms and Allow you to Find your Department</p>
     <!-- This is our table lists-->
-    <form name="f1" action="http://css1.seattleu.edu/~rudolph2/dbtest/list_firms_and_dept.php" method="post">
+ 
+    <form name="f1" action="http://css1.seattleu.edu/~rudolph2/dbtest/list_firms_and_dept.php" method="post" style = 'margin:auto; width:400px'>
         <input type="submit" value="Find Firm & Department" />
         <lable for = "Find Firm & Department">Find Firm & Department<br />
     </form>
     <br />
+    
 
-    <p> Get Department Client Cases </p>
+    <p style = 'text-align: center;'> Get Department Client Cases </p>
     <!-- This is our join query -->
-    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/get_client_cases.php" method="post">
+    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/get_client_cases.php" method="post" style = 'margin:auto; width:400px'>
         <input type="text" name="firm_id"/> 
         <label for="firm_id">Firm ID</label><br /> 
         <input type="text" name="dept_id"/> 
@@ -39,9 +44,9 @@
     <br />
 
 
-    <p> Get case with the most tasks</p>
+    <p style = 'text-align: center;'> Get case with the most tasks</p>
     <!-- This is our aggregtate query -->
-    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/list_tasks.php" method="post">
+    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/list_tasks.php" method="post" style = 'margin:auto; width:400px'>
         <input type="submit" value="Find Case with most Tasks" />
         <lable for = "Find Case with most Tasks">Find Case with the most Tasks <br />
     </form>
@@ -51,9 +56,9 @@
 
 
  
-    <p>Insert a task</p>
+    <p style = 'text-align: center;'>Insert a task</p>
     <!-- This is our Inert Tuple -->
-    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/insert_task.php" method="post">
+    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/insert_task.php" method="post" style = 'margin:auto; width:400px'>
         <input type="text" name = "task_id"/>
         <lable for = "task_id">Task ID <br />
         <input type="text" name = "task_description"/>
@@ -65,17 +70,20 @@
     </form>
     <br /> 
 
-    <p>Complete a task/ delete from the task table given a task id</p>
+    <p style = 'text-align: center;'>Complete a task/ delete from the task table given a task id</p>
     <!-- This is our delete tuple-->
-    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/complete_task.php" method="post">
+    
+    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/complete_task.php" method="post" style ='margin:auto; width:400px'>
         <input type="text" name="task_id"/> 
         <label for="task_id">Task ID </label> <br />
         <input type="reset" value="Reset" />
         <input type="submit" value="Submit request" />
     </form>
+
     <br />
 
 </body>
+
 
 
 </html>

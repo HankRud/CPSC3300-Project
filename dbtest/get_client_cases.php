@@ -8,7 +8,7 @@
     <title> Access the cars database with MySQL </title>
     <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
 </head>
-
+<center>
 <body>
     <?php
 
@@ -63,11 +63,11 @@
 
     // Get the number of rows in the result
     $num_rows = mysql_num_rows($result);
-    print "Number of rows = $num_rows <br />";
+    
 
     // Get the number of fields in the rows
     $num_fields = mysql_num_fields($result);
-    print "Number of fields = $num_fields <br />";
+   
 
     // Get the first row
     $row = mysql_fetch_array($result);
@@ -106,5 +106,5 @@
     <br /> <br />
     <a href="http://css1.seattleu.edu/~rudolph2/dbtest/db.html"> Go to Main Page </a>
 </body>
-
+</center>
 </html>
