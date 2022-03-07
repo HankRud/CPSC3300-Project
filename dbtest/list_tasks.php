@@ -72,7 +72,7 @@
     $row = mysql_fetch_array($result);
 
     // Display the results in a table
-    print "<table border='border'><caption> <h2> Case(s) with Max Task </h2> </caption>";
+    print "<table border='border'><caption> <h2> Case(s) with Most Tasks </h2> </caption>";
     print "<tr align = 'center'>";
 
     // Produce the column labels

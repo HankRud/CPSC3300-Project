@@ -50,8 +50,6 @@
 
     $query = 'DELETE FROM Task Where task_id='.$task_id .';';
 
-    // Testing (remove it when testing is done!!!)
-    print "<p>Query: " . $query . "</p>";
 
     // Execute the query
     $result = mysql_query($query);
@@ -60,6 +58,8 @@
         $error = mysql_error();
         print "<p>" . $error . "</p>";
         exit;
+    }else{
+        print "Task Removed";
     }
 
     mysql_close($conn);
