@@ -31,8 +31,7 @@ if (!$db) {
 
 $query = 'SELECT firm_name,firm_id FROM Firm;';
 
-// Testing (remove it when testing is done!!)
-print "<p>Query: ".$query."</p>";
+
 
 // Execute the query
 $result = mysql_query($query);
@@ -46,11 +45,11 @@ if (!$result) {
 // Get the number of rows in the result
 $num_rows = mysql_num_rows($result);
 
-print "Number of rows = $num_rows <br />";
+
 
 // Get the number of fields in the rows
 $num_fields = mysql_num_fields($result);
-print "Number of fields = $num_fields <br />";
+
 
 // Get the first row
 $row = mysql_fetch_array($result);

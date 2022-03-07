@@ -36,8 +36,6 @@
 
     $firm_id = $_POST['firm_id'];
 
-    // testing purpose (remove it after you complete testing!!!)
-    print "Firm ID: " . $firm_id . "<br />";
 
     // Clean up the given query (delete leading and trailing whitespace)
     trim($firm_id);
@@ -47,8 +45,7 @@
 
     $query = 'SELECT * FROM Department where firm_id ="' . $firm_id . '";';
 
-    // Testing (remove it when testing is done!!!)
-    print "<p>Query: " . $query . "</p>";
+
 
     // Execute the query
     $result = mysql_query($query);
@@ -62,17 +59,17 @@
     // Get the number of rows in the result
     $num_rows = mysql_num_rows($result);
 
-    print "Number of rows = $num_rows <br />";
+
 
     // Get the number of fields in the rows
     $num_fields = mysql_num_fields($result);
-    print "Number of fields = $num_fields <br />";
+   
 
     // Get the first row
     $row = mysql_fetch_array($result);
 
     // Display the results in a table
-    print "<table border='border'><caption> <h2> Query Results </h2> </caption>";
+    print "<table border='border'><caption> <h2> Departments </h2> </caption>";
     print "<tr align = 'center'>";
 
     // Produce the column labels

@@ -56,8 +56,7 @@
     $query = 'INSERT INTO Task VALUES(' . $task_id . ',"' . $task_description . '",' . $case_id . ');';
     $query2 = 'SELECT * FROM Task where task_id =' . $task_id . ';';
 
-    // Testing (remove it when testing is done!!!)
-    print "<p>Query: " . $query . "</p>";
+  
 
     // Execute the query
     $result = mysql_query($query);
@@ -79,17 +78,17 @@
     // Get the number of rows in the result
     $num_rows = mysql_num_rows($result2);
 
-    print "Number of rows = $num_rows <br />";
+
 
     // Get the number of fields in the rows
     $num_fields = mysql_num_fields($result2);
-    print "Number of fields = $num_fields <br />";
+
 
     // Get the first row
     $row = mysql_fetch_array($result2);
 
     // Display the results in a table
-    print "<table border='border'><caption> <h2> Query Results </h2> </caption>";
+    print "<table border='border'><caption> <h2> Show Insert </h2> </caption>";
     print "<tr align = 'center'>";
 
     // Produce the column labels
