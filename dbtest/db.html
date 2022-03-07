@@ -4,12 +4,13 @@
      the given query and display the results
     -->
 <html>
+    
 
 <head>
     <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
 </head>
 
-<body>
+<body { margin:0 auto; }>
     <p>
         This is the UI for our project
         <br />
@@ -33,15 +34,7 @@
     <br />
 
 
-    <p>Complete a task/ delete from the task table given a task id</p>
-    <!-- This is our delete tuple-->
-    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/complete_task.php" method="post">
-        <input type="text" name="Task ID"/> 
-        <label for="Task ID">Task ID </label> <br />
-        <input type="reset" value="Reset" />
-        <input type="submit" value="Submit request" />
-    </form>
-    <br />
+
 
  
     <p>Insert a task</p>
@@ -57,6 +50,16 @@
         <input type="submit" value="Submit request" />
     </form>
     <br /> 
+
+    <p>Complete a task/ delete from the task table given a task id</p>
+    <!-- This is our delete tuple-->
+    <form name="f2" action="http://css1.seattleu.edu/~rudolph2/dbtest/complete_task.php" method="post">
+        <input type="text" name="task_id"/> 
+        <label for="task_id">Task ID </label> <br />
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit request" />
+    </form>
+    <br />
 
 </body>
 
