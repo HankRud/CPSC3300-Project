@@ -5,7 +5,7 @@
      <html>
 
 <head>
-    <title> Access the cars database with MySQL </title>
+    <title> Departments from Specified Firm </title>
     <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
 </head>
 
@@ -45,7 +45,11 @@
     // remove the extra slashes
     $firm_id = stripslashes($firm_id);
 
+<<<<<<< HEAD
     $query = 'SELECT * FROM Department WHERE firm_id =' . $firm_id . ';';
+=======
+    $query = 'SELECT * FROM Department where firm_id ="' . $firm_id . '";';
+>>>>>>> c9825ed196e2c5b11b5a94d3c337e676b25587bc
 
     // Testing (remove it when testing is done!!!)
     print "<p>Query: " . $query . "</p>";
@@ -102,7 +106,7 @@
     mysql_close($conn);
     ?>
 
-    $result
+ 
 
     <br /><br />
     <a href="http://css1.seattleu.edu/~rudolph2/dbtest/db.html"> Go to Main Page </a>

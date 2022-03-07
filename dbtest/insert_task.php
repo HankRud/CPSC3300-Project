@@ -53,7 +53,8 @@
     $task_description = stripslashes($task_description);
     $case_id = stripslashes($case_id);
 
-    $query = 'INSERT INTO Task VALUES(' . $task_id . ',' . $task_description . ',' . $case_id . ');';
+    $query = 'INSERT INTO Task VALUES(' . $task_id . ',"' . $task_description . '",' . $case_id . ');';
+    $query2 = 'SELECT * FROM Task where task_id =' .$task_id. ';';
 
     // Testing (remove it when testing is done!!!)
     print "<p>Query: " . $query . "</p>";
@@ -61,26 +62,34 @@
     // Execute the query
     $result = mysql_query($query);
     if (!$result) {
-        print "Error - the query could not be executed";
+        print "Error - the inesert query could not be executed";
+        $error = mysql_error();
+        print "<p>" . $error . "</p>";
+        exit;
+    }
+
+    $result2 = mysql_query($query2);
+    if (!$result) {
+        print "Error - the retrive query could not be executed";
         $error = mysql_error();
         print "<p>" . $error . "</p>";
         exit;
     }
 
     // Get the number of rows in the result
-    $num_rows = mysql_num_rows($result);
+    $num_rows = mysql_num_rows($result2);
 
     print "Number of rows = $num_rows <br />";
 
     // Get the number of fields in the rows
-    $num_fields = mysql_num_fields($result);
+    $num_fields = mysql_num_fields($result2);
     print "Number of fields = $num_fields <br />";
 
     // Get the first row
-    $row = mysql_fetch_array($result);
+    $row = mysql_fetch_array($result2);
 
-    // Display the results in a task_id
-    print "<task_id border='border'><caption> <h2> Query Results </h2> </caption>";
+    // Display the results in a table
+    print "<table border='border'><caption> <h2> Query Results </h2> </caption>";
     print "<tr align = 'center'>";
 
     // Produce the column labels
@@ -90,27 +99,27 @@
 
     print "</tr>";
 
-    // Output the case_idues of the fields in the rows
+    // Output the values of the fields in the rows
     for ($row_num = 0; $row_num < $num_rows; $row_num++) {
 
         print "<tr align = 'center'>";
-        $case_idues = array_case_idues($row);
+        $values = array_values($row);
 
         for ($index = 0; $index < $num_fields; $index++) {
-            $case_idue = htmlspecialchars($case_idues[2 * $index + 1]);
-            print "<td>" . $case_idue . "</td> ";
+            $value = htmlspecialchars($values[2 * $index + 1]);
+            print "<td>" . $value . "</td> ";
         }
 
         print "</tr>";
-        $row = mysql_fetch_array($result);
+        $row = mysql_fetch_array($result2);
     }
 
-    print "</task_id>";
+    print "</table>";
 
     mysql_close($conn);
     ?>
 
-    $result
+   
 
     <br /><br />
     <a href="http://css1.seattleu.edu/~rudolph2/dbtest/db.html"> Go to Main Page </a>
