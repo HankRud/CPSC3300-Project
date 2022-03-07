@@ -45,7 +45,7 @@
     // remove the extra slashes
     $firm_id = stripslashes($firm_id);
 
-    $query = 'SELECT * FROM Department where firm_id =' . $firm_id . ';';
+    $query = 'SELECT * FROM Department WHERE firm_id =' . $firm_id . ';';
 
     // Testing (remove it when testing is done!!!)
     print "<p>Query: " . $query . "</p>";
