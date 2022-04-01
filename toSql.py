@@ -17,7 +17,7 @@ lead = pd.read_csv('/Users/rudolph2/Desktop/CPSC3300/CPSC3300-Project/Leads.csv'
 
 try:
     conn = mysql.connect(
-     user = 'user36', password = '1234abcdF!', host = 'cs100.seattleu.edu', database = 'bw_db36'
+     user = 'user36', password = '*******!', host = '******', database = 'bw_db36'
     )
 
     if conn.is_connected():
